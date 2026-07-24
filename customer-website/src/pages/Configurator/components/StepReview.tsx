@@ -33,7 +33,11 @@ export default function StepReview() {
           />
           <div>
             <h3 className="font-display text-xl font-semibold text-primary">{product.name}</h3>
-            <p className="text-muted">{product.brand}</p>
+            <p className="text-muted">
+              {typeof product.brand === 'object'
+                ? (product.brand as any)?.name
+                : product.brand ?? ''}
+            </p>
           </div>
         </div>
 

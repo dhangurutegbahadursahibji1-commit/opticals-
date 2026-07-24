@@ -164,37 +164,47 @@ export function ConfiguratorProvider({
   });
 
   useEffect(() => {
-    let active = true;
-    
-    async function fetchPricing() {
-      try {
-        const result = await calculatePricing({
-          productId: product.id,
-          variantId,
-          lensTypeId: config.lensTypeId || undefined,
-          addOnIds: config.coatingIds,
+  let active = true;
+
+  // Don't hit the API until user has picked a lens type.
+  // Before that, show frame price only (no server round-trip needed).
+  if (!config.lensTypeId) {
+    setPriceBreakdown({
+      frame: Number(product.price) || 0,
+      lens: 0,
+      coating: 0,
+      discount: 0,
+      subtotal: Number(product.price) || 0,
+    });
+    return;
+  }
+
+  async function fetchPricing() {
+    try {
+      const result = await calculatePricing({
+        productId: product.id,
+        variantId,
+        lensTypeId: config.lensTypeId || undefined,
+        addOnIds: config.coatingIds,
+      });
+
+      if (active && result) {
+        setPriceBreakdown({
+          frame: Number(result.framePrice) || 0,
+          lens: Number(result.lensPrice) || 0,
+          coating: Number(result.addOnPrice) || 0,
+          discount: Number(result.discount) || 0,
+          subtotal: Number(result.subtotal) || 0,
         });
-
-        if (active && result) {
-          setPriceBreakdown({
-            frame: Number(result.framePrice) || 0,
-            lens: Number(result.lensPrice) || 0,
-            coating: Number(result.addOnPrice) || 0,
-            discount: Number(result.discount) || 0,
-            subtotal: Number(result.subtotal) || 0,
-          });
-        }
-      } catch (err) {
-        console.error('Failed to calculate pricing', err);
       }
+    } catch (err) {
+      console.error('Failed to calculate pricing', err);
     }
+  }
 
-    fetchPricing();
-
-    return () => {
-      active = false;
-    };
-  }, [product.id, variantId, config.lensTypeId, config.coatingIds]);
+  fetchPricing();
+  return () => { active = false; };
+}, [product.id, product.price, variantId, config.lensTypeId, config.coatingIds]);
 
   // Validation
   const validateLensStep = useCallback(() => {
