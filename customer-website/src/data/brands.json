@@ -1,0 +1,83 @@
+[
+  {
+    "id": "ray-ban",
+    "name": "Ray-Ban",
+    "logo": "https://pub-XXXX.r2.dev/brands/ray-ban.webp",
+    "story": "An icon since 1937, Ray-Ban defined the aviator and the wayfarer \u2014 timeless silhouettes built for every generation.",
+    "collections": [
+      "Aviator",
+      "Wayfarer",
+      "Clubmaster"
+    ]
+  },
+  {
+    "id": "titan",
+    "name": "Titan",
+    "logo": "https://pub-XXXX.r2.dev/brands/titan.webp",
+    "story": "India's own precision eyewear house, Titan blends everyday durability with understated design.",
+    "collections": [
+      "Titan Fastrack",
+      "Titan Eye+"
+    ]
+  },
+  {
+    "id": "fastrack",
+    "name": "Fastrack",
+    "logo": "https://pub-XXXX.r2.dev/brands/fastrack.webp",
+    "story": "Bold, youthful and unapologetically loud \u2014 Fastrack frames are made for the fearless.",
+    "collections": [
+      "Fast Vibes",
+      "UV Sunnies"
+    ]
+  },
+  {
+    "id": "vincent-chase",
+    "name": "Vincent Chase",
+    "logo": "https://pub-XXXX.r2.dev/brands/vincent-chase.webp",
+    "story": "Design-forward frames at accessible prices, Vincent Chase brings runway trends to daily wear.",
+    "collections": [
+      "Studio Line",
+      "Air Flex"
+    ]
+  },
+  {
+    "id": "lenskart-house",
+    "name": "Lenskart House",
+    "logo": "https://pub-XXXX.r2.dev/brands/lenskart-house.webp",
+    "story": "In-house craftsmanship focused on comfort-first engineering for all-day wear.",
+    "collections": [
+      "Hustlr",
+      "Air"
+    ]
+  },
+  {
+    "id": "oakley",
+    "name": "Oakley",
+    "logo": "https://pub-XXXX.r2.dev/brands/oakley.webp",
+    "story": "Born on the racetrack, Oakley engineers performance eyewear for athletes and everyday adventurers.",
+    "collections": [
+      "Holbrook",
+      "Radar"
+    ]
+  },
+  {
+    "id": "police",
+    "name": "Police",
+    "logo": "https://pub-XXXX.r2.dev/brands/police.webp",
+    "story": "Italian edge and street-smart styling \u2014 Police frames are sharp, confident statements.",
+    "collections": [
+      "Origins",
+      "Sunset"
+    ]
+  },
+  {
+    "id": "carrera",
+    "name": "Carrera",
+    "logo": "https://pub-XXXX.r2.dev/brands/carrera.webp",
+    "story": "Racing heritage from Austria, Carrera fuses motorsport DNA with bold retro shapes.",
+    "collections": [
+      "Carrera Racing",
+      "Carrera Icon"
+    ]
+  }
+]

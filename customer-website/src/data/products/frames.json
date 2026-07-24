@@ -1,0 +1,3398 @@
+[
+  {
+    "id": "p001",
+    "slug": "aurora-round",
+    "name": "Aurora Round",
+    "brand": "Ray-Ban",
+    "price": 1999,
+    "originalPrice": 2499,
+    "variants": [
+      {
+        "id": "p001-v1",
+        "color": "Black",
+        "colorHex": "#1A1A1A",
+        "images": [
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p001/v0-front.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p001/v0-front.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p001/v0-front.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p001/v0-front-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "front",
+            "alt": "P001 \u2014 front view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p001/v0-left.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p001/v0-left.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p001/v0-left.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p001/v0-left-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "left",
+            "alt": "P001 \u2014 left view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p001/v0-right.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p001/v0-right.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p001/v0-right.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p001/v0-right-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "right",
+            "alt": "P001 \u2014 right view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p001/v0-accessories.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p001/v0-accessories.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p001/v0-accessories.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p001/v0-accessories-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "accessories",
+            "alt": "P001 \u2014 accessories view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p001/v0-box.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p001/v0-box.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p001/v0-box.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p001/v0-box-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "box",
+            "alt": "P001 \u2014 box view"
+          }
+        ],
+        "video": "https://pub-XXXX.r2.dev/products/p001/v0-turntable.mp4",
+        "availability": "in-stock",
+        "sku": "AO-P001-BL",
+        "spin360": [
+          "https://pub-XXXX.r2.dev/products/p001/v0-spin/0.webp",
+          "https://pub-XXXX.r2.dev/products/p001/v0-spin/15.webp",
+          "https://pub-XXXX.r2.dev/products/p001/v0-spin/30.webp",
+          "https://pub-XXXX.r2.dev/products/p001/v0-spin/45.webp",
+          "https://pub-XXXX.r2.dev/products/p001/v0-spin/60.webp",
+          "https://pub-XXXX.r2.dev/products/p001/v0-spin/75.webp",
+          "https://pub-XXXX.r2.dev/products/p001/v0-spin/90.webp",
+          "https://pub-XXXX.r2.dev/products/p001/v0-spin/105.webp",
+          "https://pub-XXXX.r2.dev/products/p001/v0-spin/120.webp",
+          "https://pub-XXXX.r2.dev/products/p001/v0-spin/135.webp",
+          "https://pub-XXXX.r2.dev/products/p001/v0-spin/150.webp",
+          "https://pub-XXXX.r2.dev/products/p001/v0-spin/165.webp",
+          "https://pub-XXXX.r2.dev/products/p001/v0-spin/180.webp",
+          "https://pub-XXXX.r2.dev/products/p001/v0-spin/195.webp",
+          "https://pub-XXXX.r2.dev/products/p001/v0-spin/210.webp",
+          "https://pub-XXXX.r2.dev/products/p001/v0-spin/225.webp",
+          "https://pub-XXXX.r2.dev/products/p001/v0-spin/240.webp",
+          "https://pub-XXXX.r2.dev/products/p001/v0-spin/255.webp",
+          "https://pub-XXXX.r2.dev/products/p001/v0-spin/270.webp",
+          "https://pub-XXXX.r2.dev/products/p001/v0-spin/285.webp",
+          "https://pub-XXXX.r2.dev/products/p001/v0-spin/300.webp",
+          "https://pub-XXXX.r2.dev/products/p001/v0-spin/315.webp",
+          "https://pub-XXXX.r2.dev/products/p001/v0-spin/330.webp",
+          "https://pub-XXXX.r2.dev/products/p001/v0-spin/345.webp"
+        ]
+      },
+      {
+        "id": "p001-v2",
+        "color": "Golden",
+        "colorHex": "#C6973F",
+        "images": [
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p001/v1-front.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p001/v1-front.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p001/v1-front.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p001/v1-front-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "front",
+            "alt": "P001 \u2014 front view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p001/v1-left.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p001/v1-left.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p001/v1-left.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p001/v1-left-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "left",
+            "alt": "P001 \u2014 left view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p001/v1-right.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p001/v1-right.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p001/v1-right.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p001/v1-right-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "right",
+            "alt": "P001 \u2014 right view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p001/v1-box.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p001/v1-box.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p001/v1-box.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p001/v1-box-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "box",
+            "alt": "P001 \u2014 box view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p001/v1-folded.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p001/v1-folded.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p001/v1-folded.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p001/v1-folded-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "folded",
+            "alt": "P001 \u2014 folded view"
+          }
+        ],
+        "video": "https://pub-XXXX.r2.dev/products/p001/v1-turntable.mp4",
+        "availability": "in-stock",
+        "sku": "AO-P001-GO",
+        "spin360": [
+          "https://pub-XXXX.r2.dev/products/p001/v1-spin/0.webp",
+          "https://pub-XXXX.r2.dev/products/p001/v1-spin/15.webp",
+          "https://pub-XXXX.r2.dev/products/p001/v1-spin/30.webp",
+          "https://pub-XXXX.r2.dev/products/p001/v1-spin/45.webp",
+          "https://pub-XXXX.r2.dev/products/p001/v1-spin/60.webp",
+          "https://pub-XXXX.r2.dev/products/p001/v1-spin/75.webp",
+          "https://pub-XXXX.r2.dev/products/p001/v1-spin/90.webp",
+          "https://pub-XXXX.r2.dev/products/p001/v1-spin/105.webp",
+          "https://pub-XXXX.r2.dev/products/p001/v1-spin/120.webp",
+          "https://pub-XXXX.r2.dev/products/p001/v1-spin/135.webp",
+          "https://pub-XXXX.r2.dev/products/p001/v1-spin/150.webp",
+          "https://pub-XXXX.r2.dev/products/p001/v1-spin/165.webp",
+          "https://pub-XXXX.r2.dev/products/p001/v1-spin/180.webp",
+          "https://pub-XXXX.r2.dev/products/p001/v1-spin/195.webp",
+          "https://pub-XXXX.r2.dev/products/p001/v1-spin/210.webp",
+          "https://pub-XXXX.r2.dev/products/p001/v1-spin/225.webp",
+          "https://pub-XXXX.r2.dev/products/p001/v1-spin/240.webp",
+          "https://pub-XXXX.r2.dev/products/p001/v1-spin/255.webp",
+          "https://pub-XXXX.r2.dev/products/p001/v1-spin/270.webp",
+          "https://pub-XXXX.r2.dev/products/p001/v1-spin/285.webp",
+          "https://pub-XXXX.r2.dev/products/p001/v1-spin/300.webp",
+          "https://pub-XXXX.r2.dev/products/p001/v1-spin/315.webp",
+          "https://pub-XXXX.r2.dev/products/p001/v1-spin/330.webp",
+          "https://pub-XXXX.r2.dev/products/p001/v1-spin/345.webp"
+        ]
+      },
+      {
+        "id": "p001-v3",
+        "color": "Gunmetal",
+        "colorHex": "#4B4E52",
+        "images": [
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p001/v2-front.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p001/v2-front.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p001/v2-front.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p001/v2-front-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "front",
+            "alt": "P001 \u2014 front view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p001/v2-left.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p001/v2-left.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p001/v2-left.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p001/v2-left-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "left",
+            "alt": "P001 \u2014 left view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p001/v2-right.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p001/v2-right.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p001/v2-right.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p001/v2-right-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "right",
+            "alt": "P001 \u2014 right view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p001/v2-folded.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p001/v2-folded.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p001/v2-folded.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p001/v2-folded-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "folded",
+            "alt": "P001 \u2014 folded view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p001/v2-45.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p001/v2-45.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p001/v2-45.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p001/v2-45-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "45",
+            "alt": "P001 \u2014 45 view"
+          }
+        ],
+        "video": "https://pub-XXXX.r2.dev/products/p001/v2-turntable.mp4",
+        "availability": "limited-stock",
+        "sku": "AO-P001-GU",
+        "spin360": [
+          "https://pub-XXXX.r2.dev/products/p001/v2-spin/0.webp",
+          "https://pub-XXXX.r2.dev/products/p001/v2-spin/15.webp",
+          "https://pub-XXXX.r2.dev/products/p001/v2-spin/30.webp",
+          "https://pub-XXXX.r2.dev/products/p001/v2-spin/45.webp",
+          "https://pub-XXXX.r2.dev/products/p001/v2-spin/60.webp",
+          "https://pub-XXXX.r2.dev/products/p001/v2-spin/75.webp",
+          "https://pub-XXXX.r2.dev/products/p001/v2-spin/90.webp",
+          "https://pub-XXXX.r2.dev/products/p001/v2-spin/105.webp",
+          "https://pub-XXXX.r2.dev/products/p001/v2-spin/120.webp",
+          "https://pub-XXXX.r2.dev/products/p001/v2-spin/135.webp",
+          "https://pub-XXXX.r2.dev/products/p001/v2-spin/150.webp",
+          "https://pub-XXXX.r2.dev/products/p001/v2-spin/165.webp",
+          "https://pub-XXXX.r2.dev/products/p001/v2-spin/180.webp",
+          "https://pub-XXXX.r2.dev/products/p001/v2-spin/195.webp",
+          "https://pub-XXXX.r2.dev/products/p001/v2-spin/210.webp",
+          "https://pub-XXXX.r2.dev/products/p001/v2-spin/225.webp",
+          "https://pub-XXXX.r2.dev/products/p001/v2-spin/240.webp",
+          "https://pub-XXXX.r2.dev/products/p001/v2-spin/255.webp",
+          "https://pub-XXXX.r2.dev/products/p001/v2-spin/270.webp",
+          "https://pub-XXXX.r2.dev/products/p001/v2-spin/285.webp",
+          "https://pub-XXXX.r2.dev/products/p001/v2-spin/300.webp",
+          "https://pub-XXXX.r2.dev/products/p001/v2-spin/315.webp",
+          "https://pub-XXXX.r2.dev/products/p001/v2-spin/330.webp",
+          "https://pub-XXXX.r2.dev/products/p001/v2-spin/345.webp"
+        ]
+      }
+    ],
+    "defaultVariantId": "p001-v1",
+    "category": "frames",
+    "gender": "men",
+    "material": "Acetate",
+    "frameShape": "oval",
+    "frameWidth": 128,
+    "lensWidth": 47,
+    "bridgeWidth": 15,
+    "templeLength": 141,
+    "weight": 26,
+    "warranty": "1 Year Manufacturer Warranty",
+    "suitableFaceShapes": [
+      "diamond",
+      "oval",
+      "triangle"
+    ],
+    "recommendedLens": [
+      "blue-cut",
+      "computer"
+    ],
+    "frequentlyBoughtWith": [
+      "p005",
+      "p019"
+    ],
+    "isNew": true,
+    "isBestseller": false,
+    "tags": [
+      "frames",
+      "oval",
+      "men"
+    ],
+    "description": "The Aurora Round is a acetate oval frame from Ray-Ban, engineered for all-day comfort with a refined, editorial finish suited to men faces."
+  },
+  {
+    "id": "p002",
+    "slug": "meridian-aviator",
+    "name": "Meridian Aviator",
+    "brand": "Titan",
+    "price": 7999,
+    "variants": [
+      {
+        "id": "p002-v1",
+        "color": "Rose Gold",
+        "colorHex": "#B76E79",
+        "images": [
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p002/v0-front.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p002/v0-front.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p002/v0-front.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p002/v0-front-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "front",
+            "alt": "P002 \u2014 front view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p002/v0-left.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p002/v0-left.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p002/v0-left.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p002/v0-left-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "left",
+            "alt": "P002 \u2014 left view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p002/v0-right.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p002/v0-right.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p002/v0-right.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p002/v0-right-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "right",
+            "alt": "P002 \u2014 right view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p002/v0-45.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p002/v0-45.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p002/v0-45.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p002/v0-45-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "45",
+            "alt": "P002 \u2014 45 view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p002/v0-folded.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p002/v0-folded.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p002/v0-folded.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p002/v0-folded-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "folded",
+            "alt": "P002 \u2014 folded view"
+          }
+        ],
+        "availability": "in-stock",
+        "sku": "AO-P002-RO",
+        "spin360": [
+          "https://pub-XXXX.r2.dev/products/p002/v0-spin/0.webp",
+          "https://pub-XXXX.r2.dev/products/p002/v0-spin/15.webp",
+          "https://pub-XXXX.r2.dev/products/p002/v0-spin/30.webp",
+          "https://pub-XXXX.r2.dev/products/p002/v0-spin/45.webp",
+          "https://pub-XXXX.r2.dev/products/p002/v0-spin/60.webp",
+          "https://pub-XXXX.r2.dev/products/p002/v0-spin/75.webp",
+          "https://pub-XXXX.r2.dev/products/p002/v0-spin/90.webp",
+          "https://pub-XXXX.r2.dev/products/p002/v0-spin/105.webp",
+          "https://pub-XXXX.r2.dev/products/p002/v0-spin/120.webp",
+          "https://pub-XXXX.r2.dev/products/p002/v0-spin/135.webp",
+          "https://pub-XXXX.r2.dev/products/p002/v0-spin/150.webp",
+          "https://pub-XXXX.r2.dev/products/p002/v0-spin/165.webp",
+          "https://pub-XXXX.r2.dev/products/p002/v0-spin/180.webp",
+          "https://pub-XXXX.r2.dev/products/p002/v0-spin/195.webp",
+          "https://pub-XXXX.r2.dev/products/p002/v0-spin/210.webp",
+          "https://pub-XXXX.r2.dev/products/p002/v0-spin/225.webp",
+          "https://pub-XXXX.r2.dev/products/p002/v0-spin/240.webp",
+          "https://pub-XXXX.r2.dev/products/p002/v0-spin/255.webp",
+          "https://pub-XXXX.r2.dev/products/p002/v0-spin/270.webp",
+          "https://pub-XXXX.r2.dev/products/p002/v0-spin/285.webp",
+          "https://pub-XXXX.r2.dev/products/p002/v0-spin/300.webp",
+          "https://pub-XXXX.r2.dev/products/p002/v0-spin/315.webp",
+          "https://pub-XXXX.r2.dev/products/p002/v0-spin/330.webp",
+          "https://pub-XXXX.r2.dev/products/p002/v0-spin/345.webp"
+        ]
+      },
+      {
+        "id": "p002-v2",
+        "color": "Tortoise",
+        "colorHex": "#6B4A2E",
+        "images": [
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p002/v1-front.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p002/v1-front.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p002/v1-front.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p002/v1-front-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "front",
+            "alt": "P002 \u2014 front view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p002/v1-left.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p002/v1-left.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p002/v1-left.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p002/v1-left-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "left",
+            "alt": "P002 \u2014 left view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p002/v1-right.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p002/v1-right.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p002/v1-right.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p002/v1-right-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "right",
+            "alt": "P002 \u2014 right view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p002/v1-accessories.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p002/v1-accessories.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p002/v1-accessories.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p002/v1-accessories-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "accessories",
+            "alt": "P002 \u2014 accessories view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p002/v1-on-face.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p002/v1-on-face.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p002/v1-on-face.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p002/v1-on-face-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "on-face",
+            "alt": "P002 \u2014 on face view"
+          }
+        ],
+        "availability": "limited-stock",
+        "sku": "AO-P002-TO",
+        "spin360": [
+          "https://pub-XXXX.r2.dev/products/p002/v1-spin/0.webp",
+          "https://pub-XXXX.r2.dev/products/p002/v1-spin/15.webp",
+          "https://pub-XXXX.r2.dev/products/p002/v1-spin/30.webp",
+          "https://pub-XXXX.r2.dev/products/p002/v1-spin/45.webp",
+          "https://pub-XXXX.r2.dev/products/p002/v1-spin/60.webp",
+          "https://pub-XXXX.r2.dev/products/p002/v1-spin/75.webp",
+          "https://pub-XXXX.r2.dev/products/p002/v1-spin/90.webp",
+          "https://pub-XXXX.r2.dev/products/p002/v1-spin/105.webp",
+          "https://pub-XXXX.r2.dev/products/p002/v1-spin/120.webp",
+          "https://pub-XXXX.r2.dev/products/p002/v1-spin/135.webp",
+          "https://pub-XXXX.r2.dev/products/p002/v1-spin/150.webp",
+          "https://pub-XXXX.r2.dev/products/p002/v1-spin/165.webp",
+          "https://pub-XXXX.r2.dev/products/p002/v1-spin/180.webp",
+          "https://pub-XXXX.r2.dev/products/p002/v1-spin/195.webp",
+          "https://pub-XXXX.r2.dev/products/p002/v1-spin/210.webp",
+          "https://pub-XXXX.r2.dev/products/p002/v1-spin/225.webp",
+          "https://pub-XXXX.r2.dev/products/p002/v1-spin/240.webp",
+          "https://pub-XXXX.r2.dev/products/p002/v1-spin/255.webp",
+          "https://pub-XXXX.r2.dev/products/p002/v1-spin/270.webp",
+          "https://pub-XXXX.r2.dev/products/p002/v1-spin/285.webp",
+          "https://pub-XXXX.r2.dev/products/p002/v1-spin/300.webp",
+          "https://pub-XXXX.r2.dev/products/p002/v1-spin/315.webp",
+          "https://pub-XXXX.r2.dev/products/p002/v1-spin/330.webp",
+          "https://pub-XXXX.r2.dev/products/p002/v1-spin/345.webp"
+        ]
+      }
+    ],
+    "defaultVariantId": "p002-v1",
+    "category": "sunglasses",
+    "gender": "women",
+    "material": "TR90 Flex Titanium",
+    "frameShape": "round",
+    "frameWidth": 141,
+    "lensWidth": 51,
+    "bridgeWidth": 16,
+    "templeLength": 140,
+    "weight": 21,
+    "warranty": "1 Year Manufacturer Warranty",
+    "suitableFaceShapes": [
+      "triangle",
+      "round",
+      "oval"
+    ],
+    "recommendedLens": [
+      "single-vision",
+      "photochromic"
+    ],
+    "frequentlyBoughtWith": [
+      "p006",
+      "p010"
+    ],
+    "isNew": false,
+    "isBestseller": true,
+    "tags": [
+      "sunglasses",
+      "round",
+      "women"
+    ],
+    "description": "The Meridian Aviator is a tr90 flex titanium round frame from Titan, engineered for all-day comfort with a refined, editorial finish suited to women faces."
+  },
+  {
+    "id": "p003",
+    "slug": "solstice-cat-eye",
+    "name": "Solstice Cat-Eye",
+    "brand": "Fastrack",
+    "price": 1999,
+    "variants": [
+      {
+        "id": "p003-v1",
+        "color": "Golden",
+        "colorHex": "#C6973F",
+        "images": [
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p003/v0-front.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p003/v0-front.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p003/v0-front.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p003/v0-front-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "front",
+            "alt": "P003 \u2014 front view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p003/v0-left.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p003/v0-left.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p003/v0-left.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p003/v0-left-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "left",
+            "alt": "P003 \u2014 left view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p003/v0-right.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p003/v0-right.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p003/v0-right.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p003/v0-right-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "right",
+            "alt": "P003 \u2014 right view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p003/v0-folded.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p003/v0-folded.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p003/v0-folded.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p003/v0-folded-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "folded",
+            "alt": "P003 \u2014 folded view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p003/v0-accessories.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p003/v0-accessories.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p003/v0-accessories.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p003/v0-accessories-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "accessories",
+            "alt": "P003 \u2014 accessories view"
+          }
+        ],
+        "availability": "limited-stock",
+        "sku": "AO-P003-GO"
+      },
+      {
+        "id": "p003-v2",
+        "color": "Rose Gold",
+        "colorHex": "#B76E79",
+        "images": [
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p003/v1-front.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p003/v1-front.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p003/v1-front.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p003/v1-front-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "front",
+            "alt": "P003 \u2014 front view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p003/v1-left.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p003/v1-left.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p003/v1-left.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p003/v1-left-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "left",
+            "alt": "P003 \u2014 left view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p003/v1-right.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p003/v1-right.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p003/v1-right.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p003/v1-right-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "right",
+            "alt": "P003 \u2014 right view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p003/v1-accessories.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p003/v1-accessories.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p003/v1-accessories.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p003/v1-accessories-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "accessories",
+            "alt": "P003 \u2014 accessories view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p003/v1-45.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p003/v1-45.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p003/v1-45.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p003/v1-45-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "45",
+            "alt": "P003 \u2014 45 view"
+          }
+        ],
+        "availability": "store-only",
+        "sku": "AO-P003-RO"
+      }
+    ],
+    "defaultVariantId": "p003-v1",
+    "category": "computer",
+    "gender": "unisex",
+    "material": "Metal Alloy",
+    "frameShape": "square",
+    "frameWidth": 145,
+    "lensWidth": 47,
+    "bridgeWidth": 17,
+    "templeLength": 139,
+    "weight": 26,
+    "warranty": "1 Year Manufacturer Warranty",
+    "suitableFaceShapes": [
+      "round",
+      "rectangle",
+      "diamond"
+    ],
+    "recommendedLens": [
+      "driving",
+      "progressive"
+    ],
+    "frequentlyBoughtWith": [
+      "p011",
+      "p008"
+    ],
+    "isNew": false,
+    "isBestseller": false,
+    "tags": [
+      "computer",
+      "square",
+      "unisex"
+    ],
+    "description": "The Solstice Cat-Eye is a metal alloy square frame from Fastrack, engineered for all-day comfort with a refined, editorial finish suited to unisex faces."
+  },
+  {
+    "id": "p004",
+    "slug": "heritage-browline",
+    "name": "Heritage Browline",
+    "brand": "Vincent Chase",
+    "price": 2999,
+    "originalPrice": 3799,
+    "variants": [
+      {
+        "id": "p004-v1",
+        "color": "Tortoise",
+        "colorHex": "#6B4A2E",
+        "images": [
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p004/v0-front.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p004/v0-front.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p004/v0-front.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p004/v0-front-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "front",
+            "alt": "P004 \u2014 front view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p004/v0-left.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p004/v0-left.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p004/v0-left.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p004/v0-left-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "left",
+            "alt": "P004 \u2014 left view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p004/v0-right.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p004/v0-right.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p004/v0-right.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p004/v0-right-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "right",
+            "alt": "P004 \u2014 right view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p004/v0-box.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p004/v0-box.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p004/v0-box.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p004/v0-box-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "box",
+            "alt": "P004 \u2014 box view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p004/v0-on-face.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p004/v0-on-face.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p004/v0-on-face.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p004/v0-on-face-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "on-face",
+            "alt": "P004 \u2014 on face view"
+          }
+        ],
+        "availability": "store-only",
+        "sku": "AO-P004-TO"
+      },
+      {
+        "id": "p004-v2",
+        "color": "Black",
+        "colorHex": "#1A1A1A",
+        "images": [
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p004/v1-front.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p004/v1-front.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p004/v1-front.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p004/v1-front-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "front",
+            "alt": "P004 \u2014 front view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p004/v1-left.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p004/v1-left.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p004/v1-left.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p004/v1-left-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "left",
+            "alt": "P004 \u2014 left view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p004/v1-right.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p004/v1-right.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p004/v1-right.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p004/v1-right-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "right",
+            "alt": "P004 \u2014 right view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p004/v1-accessories.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p004/v1-accessories.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p004/v1-accessories.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p004/v1-accessories-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "accessories",
+            "alt": "P004 \u2014 accessories view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p004/v1-on-face.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p004/v1-on-face.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p004/v1-on-face.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p004/v1-on-face-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "on-face",
+            "alt": "P004 \u2014 on face view"
+          }
+        ],
+        "availability": "in-stock",
+        "sku": "AO-P004-BL"
+      }
+    ],
+    "defaultVariantId": "p004-v1",
+    "category": "kids",
+    "gender": "kids",
+    "material": "Stainless Steel",
+    "frameShape": "rectangle",
+    "frameWidth": 136,
+    "lensWidth": 53,
+    "bridgeWidth": 19,
+    "templeLength": 143,
+    "weight": 20,
+    "warranty": "1 Year Manufacturer Warranty",
+    "suitableFaceShapes": [
+      "round",
+      "triangle",
+      "square"
+    ],
+    "recommendedLens": [
+      "computer",
+      "progressive"
+    ],
+    "frequentlyBoughtWith": [
+      "p012",
+      "p008"
+    ],
+    "isNew": false,
+    "isBestseller": false,
+    "tags": [
+      "kids",
+      "rectangle",
+      "kids"
+    ],
+    "description": "The Heritage Browline is a stainless steel rectangle frame from Vincent Chase, engineered for all-day comfort with a refined, editorial finish suited to kids faces."
+  },
+  {
+    "id": "p005",
+    "slug": "bengal-wayfarer",
+    "name": "Bengal Wayfarer",
+    "brand": "Lenskart House",
+    "price": 1999,
+    "variants": [
+      {
+        "id": "p005-v1",
+        "color": "Gunmetal",
+        "colorHex": "#4B4E52",
+        "images": [
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p005/v0-front.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p005/v0-front.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p005/v0-front.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p005/v0-front-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "front",
+            "alt": "P005 \u2014 front view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p005/v0-left.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p005/v0-left.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p005/v0-left.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p005/v0-left-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "left",
+            "alt": "P005 \u2014 left view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p005/v0-right.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p005/v0-right.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p005/v0-right.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p005/v0-right-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "right",
+            "alt": "P005 \u2014 right view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p005/v0-accessories.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p005/v0-accessories.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p005/v0-accessories.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p005/v0-accessories-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "accessories",
+            "alt": "P005 \u2014 accessories view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p005/v0-45.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p005/v0-45.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p005/v0-45.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p005/v0-45-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "45",
+            "alt": "P005 \u2014 45 view"
+          }
+        ],
+        "availability": "in-stock",
+        "sku": "AO-P005-GU"
+      },
+      {
+        "id": "p005-v2",
+        "color": "Silver",
+        "colorHex": "#C7CBD1",
+        "images": [
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p005/v1-front.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p005/v1-front.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p005/v1-front.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p005/v1-front-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "front",
+            "alt": "P005 \u2014 front view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p005/v1-left.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p005/v1-left.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p005/v1-left.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p005/v1-left-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "left",
+            "alt": "P005 \u2014 left view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p005/v1-right.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p005/v1-right.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p005/v1-right.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p005/v1-right-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "right",
+            "alt": "P005 \u2014 right view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p005/v1-45.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p005/v1-45.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p005/v1-45.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p005/v1-45-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "45",
+            "alt": "P005 \u2014 45 view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p005/v1-folded.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p005/v1-folded.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p005/v1-folded.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p005/v1-folded-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "folded",
+            "alt": "P005 \u2014 folded view"
+          }
+        ],
+        "availability": "in-stock",
+        "sku": "AO-P005-SI"
+      },
+      {
+        "id": "p005-v3",
+        "color": "Golden",
+        "colorHex": "#C6973F",
+        "images": [
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p005/v2-front.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p005/v2-front.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p005/v2-front.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p005/v2-front-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "front",
+            "alt": "P005 \u2014 front view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p005/v2-left.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p005/v2-left.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p005/v2-left.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p005/v2-left-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "left",
+            "alt": "P005 \u2014 left view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p005/v2-right.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p005/v2-right.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p005/v2-right.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p005/v2-right-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "right",
+            "alt": "P005 \u2014 right view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p005/v2-box.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p005/v2-box.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p005/v2-box.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p005/v2-box-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "box",
+            "alt": "P005 \u2014 box view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p005/v2-on-face.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p005/v2-on-face.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p005/v2-on-face.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p005/v2-on-face-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "on-face",
+            "alt": "P005 \u2014 on face view"
+          }
+        ],
+        "availability": "limited-stock",
+        "sku": "AO-P005-GO"
+      }
+    ],
+    "defaultVariantId": "p005-v1",
+    "category": "reading",
+    "gender": "men",
+    "material": "Polycarbonate",
+    "frameShape": "aviator",
+    "frameWidth": 129,
+    "lensWidth": 49,
+    "bridgeWidth": 20,
+    "templeLength": 138,
+    "weight": 30,
+    "warranty": "1 Year Manufacturer Warranty",
+    "suitableFaceShapes": [
+      "round",
+      "heart",
+      "triangle"
+    ],
+    "recommendedLens": [
+      "single-vision",
+      "blue-cut"
+    ],
+    "frequentlyBoughtWith": [
+      "p010",
+      "p018"
+    ],
+    "isNew": false,
+    "isBestseller": false,
+    "tags": [
+      "reading",
+      "aviator",
+      "men"
+    ],
+    "description": "The Bengal Wayfarer is a polycarbonate aviator frame from Lenskart House, engineered for all-day comfort with a refined, editorial finish suited to men faces."
+  },
+  {
+    "id": "p006",
+    "slug": "ivory-oval",
+    "name": "Ivory Oval",
+    "brand": "Oakley",
+    "price": 3999,
+    "variants": [
+      {
+        "id": "p006-v1",
+        "color": "Blue",
+        "colorHex": "#2C4E7C",
+        "images": [
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p006/v0-front.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p006/v0-front.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p006/v0-front.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p006/v0-front-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "front",
+            "alt": "P006 \u2014 front view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p006/v0-left.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p006/v0-left.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p006/v0-left.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p006/v0-left-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "left",
+            "alt": "P006 \u2014 left view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p006/v0-right.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p006/v0-right.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p006/v0-right.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p006/v0-right-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "right",
+            "alt": "P006 \u2014 right view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p006/v0-45.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p006/v0-45.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p006/v0-45.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p006/v0-45-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "45",
+            "alt": "P006 \u2014 45 view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p006/v0-accessories.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p006/v0-accessories.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p006/v0-accessories.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p006/v0-accessories-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "accessories",
+            "alt": "P006 \u2014 accessories view"
+          }
+        ],
+        "video": "https://pub-XXXX.r2.dev/products/p006/v0-turntable.mp4",
+        "availability": "in-stock",
+        "sku": "AO-P006-BL"
+      },
+      {
+        "id": "p006-v2",
+        "color": "Golden",
+        "colorHex": "#C6973F",
+        "images": [
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p006/v1-front.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p006/v1-front.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p006/v1-front.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p006/v1-front-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "front",
+            "alt": "P006 \u2014 front view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p006/v1-left.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p006/v1-left.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p006/v1-left.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p006/v1-left-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "left",
+            "alt": "P006 \u2014 left view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p006/v1-right.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p006/v1-right.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p006/v1-right.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p006/v1-right-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "right",
+            "alt": "P006 \u2014 right view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p006/v1-accessories.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p006/v1-accessories.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p006/v1-accessories.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p006/v1-accessories-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "accessories",
+            "alt": "P006 \u2014 accessories view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p006/v1-on-face.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p006/v1-on-face.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p006/v1-on-face.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p006/v1-on-face-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "on-face",
+            "alt": "P006 \u2014 on face view"
+          }
+        ],
+        "video": "https://pub-XXXX.r2.dev/products/p006/v1-turntable.mp4",
+        "availability": "limited-stock",
+        "sku": "AO-P006-GO"
+      }
+    ],
+    "defaultVariantId": "p006-v1",
+    "category": "frames",
+    "gender": "women",
+    "material": "Acetate",
+    "frameShape": "cat-eye",
+    "frameWidth": 135,
+    "lensWidth": 57,
+    "bridgeWidth": 18,
+    "templeLength": 146,
+    "weight": 22,
+    "warranty": "1 Year Manufacturer Warranty",
+    "suitableFaceShapes": [
+      "rectangle",
+      "diamond",
+      "heart"
+    ],
+    "recommendedLens": [
+      "reading",
+      "photochromic"
+    ],
+    "frequentlyBoughtWith": [
+      "p017",
+      "p010"
+    ],
+    "isNew": false,
+    "isBestseller": false,
+    "tags": [
+      "frames",
+      "cat-eye",
+      "women"
+    ],
+    "description": "The Ivory Oval is a acetate cat-eye frame from Oakley, engineered for all-day comfort with a refined, editorial finish suited to women faces."
+  },
+  {
+    "id": "p007",
+    "slug": "patiala-classic",
+    "name": "Patiala Classic",
+    "brand": "Police",
+    "price": 3999,
+    "originalPrice": 4499,
+    "variants": [
+      {
+        "id": "p007-v1",
+        "color": "Blue",
+        "colorHex": "#2C4E7C",
+        "images": [
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p007/v0-front.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p007/v0-front.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p007/v0-front.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p007/v0-front-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "front",
+            "alt": "P007 \u2014 front view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p007/v0-left.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p007/v0-left.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p007/v0-left.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p007/v0-left-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "left",
+            "alt": "P007 \u2014 left view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p007/v0-right.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p007/v0-right.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p007/v0-right.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p007/v0-right-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "right",
+            "alt": "P007 \u2014 right view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p007/v0-folded.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p007/v0-folded.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p007/v0-folded.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p007/v0-folded-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "folded",
+            "alt": "P007 \u2014 folded view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p007/v0-45.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p007/v0-45.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p007/v0-45.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p007/v0-45-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "45",
+            "alt": "P007 \u2014 45 view"
+          }
+        ],
+        "availability": "limited-stock",
+        "sku": "AO-P007-BL"
+      },
+      {
+        "id": "p007-v2",
+        "color": "Tortoise",
+        "colorHex": "#6B4A2E",
+        "images": [
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p007/v1-front.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p007/v1-front.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p007/v1-front.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p007/v1-front-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "front",
+            "alt": "P007 \u2014 front view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p007/v1-left.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p007/v1-left.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p007/v1-left.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p007/v1-left-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "left",
+            "alt": "P007 \u2014 left view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p007/v1-right.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p007/v1-right.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p007/v1-right.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p007/v1-right-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "right",
+            "alt": "P007 \u2014 right view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p007/v1-accessories.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p007/v1-accessories.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p007/v1-accessories.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p007/v1-accessories-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "accessories",
+            "alt": "P007 \u2014 accessories view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p007/v1-box.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p007/v1-box.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p007/v1-box.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p007/v1-box-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "box",
+            "alt": "P007 \u2014 box view"
+          }
+        ],
+        "availability": "store-only",
+        "sku": "AO-P007-TO"
+      }
+    ],
+    "defaultVariantId": "p007-v1",
+    "category": "sunglasses",
+    "gender": "unisex",
+    "material": "TR90 Flex Titanium",
+    "frameShape": "wayfarer",
+    "frameWidth": 148,
+    "lensWidth": 48,
+    "bridgeWidth": 20,
+    "templeLength": 148,
+    "weight": 24,
+    "warranty": "1 Year Manufacturer Warranty",
+    "suitableFaceShapes": [
+      "diamond",
+      "oval",
+      "heart"
+    ],
+    "recommendedLens": [
+      "photochromic",
+      "reading"
+    ],
+    "frequentlyBoughtWith": [
+      "p002",
+      "p003"
+    ],
+    "isNew": true,
+    "isBestseller": true,
+    "tags": [
+      "sunglasses",
+      "wayfarer",
+      "unisex"
+    ],
+    "description": "The Patiala Classic is a tr90 flex titanium wayfarer frame from Police, engineered for all-day comfort with a refined, editorial finish suited to unisex faces."
+  },
+  {
+    "id": "p008",
+    "slug": "sirhind-square",
+    "name": "Sirhind Square",
+    "brand": "Carrera",
+    "price": 5999,
+    "variants": [
+      {
+        "id": "p008-v1",
+        "color": "Silver",
+        "colorHex": "#C7CBD1",
+        "images": [
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p008/v0-front.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p008/v0-front.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p008/v0-front.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p008/v0-front-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "front",
+            "alt": "P008 \u2014 front view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p008/v0-left.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p008/v0-left.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p008/v0-left.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p008/v0-left-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "left",
+            "alt": "P008 \u2014 left view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p008/v0-right.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p008/v0-right.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p008/v0-right.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p008/v0-right-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "right",
+            "alt": "P008 \u2014 right view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p008/v0-accessories.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p008/v0-accessories.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p008/v0-accessories.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p008/v0-accessories-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "accessories",
+            "alt": "P008 \u2014 accessories view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p008/v0-box.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p008/v0-box.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p008/v0-box.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p008/v0-box-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "box",
+            "alt": "P008 \u2014 box view"
+          }
+        ],
+        "availability": "store-only",
+        "sku": "AO-P008-SI"
+      },
+      {
+        "id": "p008-v2",
+        "color": "Crystal Clear",
+        "colorHex": "#E7E7E7",
+        "images": [
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p008/v1-front.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p008/v1-front.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p008/v1-front.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p008/v1-front-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "front",
+            "alt": "P008 \u2014 front view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p008/v1-left.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p008/v1-left.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p008/v1-left.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p008/v1-left-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "left",
+            "alt": "P008 \u2014 left view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p008/v1-right.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p008/v1-right.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p008/v1-right.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p008/v1-right-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "right",
+            "alt": "P008 \u2014 right view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p008/v1-box.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p008/v1-box.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p008/v1-box.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p008/v1-box-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "box",
+            "alt": "P008 \u2014 box view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p008/v1-folded.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p008/v1-folded.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p008/v1-folded.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p008/v1-folded-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "folded",
+            "alt": "P008 \u2014 folded view"
+          }
+        ],
+        "availability": "in-stock",
+        "sku": "AO-P008-CR"
+      }
+    ],
+    "defaultVariantId": "p008-v1",
+    "category": "computer",
+    "gender": "kids",
+    "material": "Metal Alloy",
+    "frameShape": "browline",
+    "frameWidth": 148,
+    "lensWidth": 51,
+    "bridgeWidth": 14,
+    "templeLength": 142,
+    "weight": 24,
+    "warranty": "1 Year Manufacturer Warranty",
+    "suitableFaceShapes": [
+      "square",
+      "heart",
+      "oval"
+    ],
+    "recommendedLens": [
+      "computer",
+      "driving"
+    ],
+    "frequentlyBoughtWith": [
+      "p015",
+      "p010"
+    ],
+    "isNew": false,
+    "isBestseller": false,
+    "tags": [
+      "computer",
+      "browline",
+      "kids"
+    ],
+    "description": "The Sirhind Square is a metal alloy browline frame from Carrera, engineered for all-day comfort with a refined, editorial finish suited to kids faces."
+  },
+  {
+    "id": "p009",
+    "slug": "nabha-rectangle",
+    "name": "Nabha Rectangle",
+    "brand": "Ray-Ban",
+    "price": 3499,
+    "variants": [
+      {
+        "id": "p009-v1",
+        "color": "Gunmetal",
+        "colorHex": "#4B4E52",
+        "images": [
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p009/v0-front.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p009/v0-front.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p009/v0-front.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p009/v0-front-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "front",
+            "alt": "P009 \u2014 front view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p009/v0-left.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p009/v0-left.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p009/v0-left.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p009/v0-left-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "left",
+            "alt": "P009 \u2014 left view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p009/v0-right.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p009/v0-right.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p009/v0-right.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p009/v0-right-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "right",
+            "alt": "P009 \u2014 right view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p009/v0-accessories.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p009/v0-accessories.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p009/v0-accessories.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p009/v0-accessories-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "accessories",
+            "alt": "P009 \u2014 accessories view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p009/v0-box.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p009/v0-box.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p009/v0-box.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p009/v0-box-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "box",
+            "alt": "P009 \u2014 box view"
+          }
+        ],
+        "availability": "in-stock",
+        "sku": "AO-P009-GU"
+      },
+      {
+        "id": "p009-v2",
+        "color": "Silver",
+        "colorHex": "#C7CBD1",
+        "images": [
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p009/v1-front.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p009/v1-front.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p009/v1-front.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p009/v1-front-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "front",
+            "alt": "P009 \u2014 front view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p009/v1-left.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p009/v1-left.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p009/v1-left.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p009/v1-left-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "left",
+            "alt": "P009 \u2014 left view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p009/v1-right.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p009/v1-right.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p009/v1-right.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p009/v1-right-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "right",
+            "alt": "P009 \u2014 right view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p009/v1-accessories.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p009/v1-accessories.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p009/v1-accessories.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p009/v1-accessories-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "accessories",
+            "alt": "P009 \u2014 accessories view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p009/v1-box.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p009/v1-box.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p009/v1-box.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p009/v1-box-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "box",
+            "alt": "P009 \u2014 box view"
+          }
+        ],
+        "availability": "in-stock",
+        "sku": "AO-P009-SI"
+      },
+      {
+        "id": "p009-v3",
+        "color": "Black",
+        "colorHex": "#1A1A1A",
+        "images": [
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p009/v2-front.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p009/v2-front.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p009/v2-front.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p009/v2-front-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "front",
+            "alt": "P009 \u2014 front view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p009/v2-left.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p009/v2-left.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p009/v2-left.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p009/v2-left-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "left",
+            "alt": "P009 \u2014 left view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p009/v2-right.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p009/v2-right.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p009/v2-right.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p009/v2-right-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "right",
+            "alt": "P009 \u2014 right view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p009/v2-folded.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p009/v2-folded.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p009/v2-folded.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p009/v2-folded-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "folded",
+            "alt": "P009 \u2014 folded view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p009/v2-box.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p009/v2-box.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p009/v2-box.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p009/v2-box-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "box",
+            "alt": "P009 \u2014 box view"
+          }
+        ],
+        "availability": "limited-stock",
+        "sku": "AO-P009-BL"
+      }
+    ],
+    "defaultVariantId": "p009-v1",
+    "category": "kids",
+    "gender": "men",
+    "material": "Stainless Steel",
+    "frameShape": "oval",
+    "frameWidth": 139,
+    "lensWidth": 58,
+    "bridgeWidth": 15,
+    "templeLength": 146,
+    "weight": 30,
+    "warranty": "1 Year Manufacturer Warranty",
+    "suitableFaceShapes": [
+      "diamond",
+      "oval",
+      "triangle"
+    ],
+    "recommendedLens": [
+      "progressive",
+      "photochromic"
+    ],
+    "frequentlyBoughtWith": [
+      "p002",
+      "p001"
+    ],
+    "isNew": false,
+    "isBestseller": false,
+    "tags": [
+      "kids",
+      "oval",
+      "men"
+    ],
+    "description": "The Nabha Rectangle is a stainless steel oval frame from Ray-Ban, engineered for all-day comfort with a refined, editorial finish suited to men faces."
+  },
+  {
+    "id": "p010",
+    "slug": "rajindra-retro",
+    "name": "Rajindra Retro",
+    "brand": "Titan",
+    "price": 1499,
+    "originalPrice": 1999,
+    "variants": [
+      {
+        "id": "p010-v1",
+        "color": "Tortoise",
+        "colorHex": "#6B4A2E",
+        "images": [
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p010/v0-front.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p010/v0-front.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p010/v0-front.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p010/v0-front-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "front",
+            "alt": "P010 \u2014 front view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p010/v0-left.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p010/v0-left.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p010/v0-left.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p010/v0-left-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "left",
+            "alt": "P010 \u2014 left view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p010/v0-right.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p010/v0-right.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p010/v0-right.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p010/v0-right-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "right",
+            "alt": "P010 \u2014 right view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p010/v0-accessories.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p010/v0-accessories.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p010/v0-accessories.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p010/v0-accessories-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "accessories",
+            "alt": "P010 \u2014 accessories view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p010/v0-on-face.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p010/v0-on-face.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p010/v0-on-face.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p010/v0-on-face-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "on-face",
+            "alt": "P010 \u2014 on face view"
+          }
+        ],
+        "availability": "in-stock",
+        "sku": "AO-P010-TO"
+      },
+      {
+        "id": "p010-v2",
+        "color": "Gunmetal",
+        "colorHex": "#4B4E52",
+        "images": [
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p010/v1-front.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p010/v1-front.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p010/v1-front.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p010/v1-front-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "front",
+            "alt": "P010 \u2014 front view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p010/v1-left.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p010/v1-left.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p010/v1-left.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p010/v1-left-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "left",
+            "alt": "P010 \u2014 left view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p010/v1-right.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p010/v1-right.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p010/v1-right.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p010/v1-right-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "right",
+            "alt": "P010 \u2014 right view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p010/v1-folded.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p010/v1-folded.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p010/v1-folded.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p010/v1-folded-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "folded",
+            "alt": "P010 \u2014 folded view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p010/v1-on-face.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p010/v1-on-face.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p010/v1-on-face.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p010/v1-on-face-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "on-face",
+            "alt": "P010 \u2014 on face view"
+          }
+        ],
+        "availability": "limited-stock",
+        "sku": "AO-P010-GU"
+      }
+    ],
+    "defaultVariantId": "p010-v1",
+    "category": "reading",
+    "gender": "women",
+    "material": "Polycarbonate",
+    "frameShape": "round",
+    "frameWidth": 130,
+    "lensWidth": 57,
+    "bridgeWidth": 17,
+    "templeLength": 139,
+    "weight": 30,
+    "warranty": "1 Year Manufacturer Warranty",
+    "suitableFaceShapes": [
+      "diamond",
+      "square",
+      "rectangle"
+    ],
+    "recommendedLens": [
+      "computer",
+      "photochromic"
+    ],
+    "frequentlyBoughtWith": [
+      "p012",
+      "p005"
+    ],
+    "isNew": false,
+    "isBestseller": false,
+    "tags": [
+      "reading",
+      "round",
+      "women"
+    ],
+    "description": "The Rajindra Retro is a polycarbonate round frame from Titan, engineered for all-day comfort with a refined, editorial finish suited to women faces."
+  },
+  {
+    "id": "p011",
+    "slug": "punjab-pilot",
+    "name": "Punjab Pilot",
+    "brand": "Fastrack",
+    "price": 7999,
+    "variants": [
+      {
+        "id": "p011-v1",
+        "color": "Gunmetal",
+        "colorHex": "#4B4E52",
+        "images": [
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p011/v0-front.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p011/v0-front.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p011/v0-front.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p011/v0-front-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "front",
+            "alt": "P011 \u2014 front view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p011/v0-left.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p011/v0-left.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p011/v0-left.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p011/v0-left-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "left",
+            "alt": "P011 \u2014 left view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p011/v0-right.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p011/v0-right.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p011/v0-right.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p011/v0-right-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "right",
+            "alt": "P011 \u2014 right view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p011/v0-folded.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p011/v0-folded.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p011/v0-folded.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p011/v0-folded-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "folded",
+            "alt": "P011 \u2014 folded view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p011/v0-accessories.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p011/v0-accessories.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p011/v0-accessories.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p011/v0-accessories-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "accessories",
+            "alt": "P011 \u2014 accessories view"
+          }
+        ],
+        "video": "https://pub-XXXX.r2.dev/products/p011/v0-turntable.mp4",
+        "availability": "limited-stock",
+        "sku": "AO-P011-GU"
+      },
+      {
+        "id": "p011-v2",
+        "color": "Crystal Clear",
+        "colorHex": "#E7E7E7",
+        "images": [
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p011/v1-front.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p011/v1-front.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p011/v1-front.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p011/v1-front-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "front",
+            "alt": "P011 \u2014 front view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p011/v1-left.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p011/v1-left.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p011/v1-left.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p011/v1-left-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "left",
+            "alt": "P011 \u2014 left view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p011/v1-right.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p011/v1-right.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p011/v1-right.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p011/v1-right-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "right",
+            "alt": "P011 \u2014 right view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p011/v1-folded.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p011/v1-folded.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p011/v1-folded.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p011/v1-folded-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "folded",
+            "alt": "P011 \u2014 folded view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p011/v1-accessories.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p011/v1-accessories.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p011/v1-accessories.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p011/v1-accessories-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "accessories",
+            "alt": "P011 \u2014 accessories view"
+          }
+        ],
+        "video": "https://pub-XXXX.r2.dev/products/p011/v1-turntable.mp4",
+        "availability": "store-only",
+        "sku": "AO-P011-CR"
+      }
+    ],
+    "defaultVariantId": "p011-v1",
+    "category": "frames",
+    "gender": "unisex",
+    "material": "Acetate",
+    "frameShape": "square",
+    "frameWidth": 137,
+    "lensWidth": 52,
+    "bridgeWidth": 19,
+    "templeLength": 148,
+    "weight": 23,
+    "warranty": "1 Year Manufacturer Warranty",
+    "suitableFaceShapes": [
+      "heart",
+      "diamond",
+      "triangle"
+    ],
+    "recommendedLens": [
+      "single-vision",
+      "blue-cut"
+    ],
+    "frequentlyBoughtWith": [
+      "p009",
+      "p006"
+    ],
+    "isNew": false,
+    "isBestseller": false,
+    "tags": [
+      "frames",
+      "square",
+      "unisex"
+    ],
+    "description": "The Punjab Pilot is a acetate square frame from Fastrack, engineered for all-day comfort with a refined, editorial finish suited to unisex faces."
+  },
+  {
+    "id": "p012",
+    "slug": "baradari-blue-cut",
+    "name": "Baradari Blue-Cut",
+    "brand": "Vincent Chase",
+    "price": 2999,
+    "variants": [
+      {
+        "id": "p012-v1",
+        "color": "Tortoise",
+        "colorHex": "#6B4A2E",
+        "images": [
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p012/v0-front.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p012/v0-front.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p012/v0-front.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p012/v0-front-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "front",
+            "alt": "P012 \u2014 front view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p012/v0-left.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p012/v0-left.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p012/v0-left.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p012/v0-left-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "left",
+            "alt": "P012 \u2014 left view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p012/v0-right.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p012/v0-right.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p012/v0-right.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p012/v0-right-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "right",
+            "alt": "P012 \u2014 right view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p012/v0-folded.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p012/v0-folded.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p012/v0-folded.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p012/v0-folded-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "folded",
+            "alt": "P012 \u2014 folded view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p012/v0-box.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p012/v0-box.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p012/v0-box.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p012/v0-box-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "box",
+            "alt": "P012 \u2014 box view"
+          }
+        ],
+        "availability": "store-only",
+        "sku": "AO-P012-TO"
+      },
+      {
+        "id": "p012-v2",
+        "color": "Gunmetal",
+        "colorHex": "#4B4E52",
+        "images": [
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p012/v1-front.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p012/v1-front.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p012/v1-front.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p012/v1-front-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "front",
+            "alt": "P012 \u2014 front view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p012/v1-left.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p012/v1-left.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p012/v1-left.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p012/v1-left-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "left",
+            "alt": "P012 \u2014 left view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p012/v1-right.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p012/v1-right.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p012/v1-right.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p012/v1-right-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "right",
+            "alt": "P012 \u2014 right view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p012/v1-folded.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p012/v1-folded.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p012/v1-folded.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p012/v1-folded-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "folded",
+            "alt": "P012 \u2014 folded view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p012/v1-accessories.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p012/v1-accessories.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p012/v1-accessories.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p012/v1-accessories-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "accessories",
+            "alt": "P012 \u2014 accessories view"
+          }
+        ],
+        "availability": "in-stock",
+        "sku": "AO-P012-GU"
+      }
+    ],
+    "defaultVariantId": "p012-v1",
+    "category": "sunglasses",
+    "gender": "kids",
+    "material": "TR90 Flex Titanium",
+    "frameShape": "rectangle",
+    "frameWidth": 128,
+    "lensWidth": 47,
+    "bridgeWidth": 19,
+    "templeLength": 148,
+    "weight": 18,
+    "warranty": "1 Year Manufacturer Warranty",
+    "suitableFaceShapes": [
+      "square",
+      "oval",
+      "rectangle"
+    ],
+    "recommendedLens": [
+      "driving",
+      "progressive"
+    ],
+    "frequentlyBoughtWith": [
+      "p016",
+      "p019"
+    ],
+    "isNew": false,
+    "isBestseller": true,
+    "tags": [
+      "sunglasses",
+      "rectangle",
+      "kids"
+    ],
+    "description": "The Baradari Blue-Cut is a tr90 flex titanium rectangle frame from Vincent Chase, engineered for all-day comfort with a refined, editorial finish suited to kids faces."
+  },
+  {
+    "id": "p013",
+    "slug": "qila-round",
+    "name": "Qila Round",
+    "brand": "Lenskart House",
+    "price": 1999,
+    "originalPrice": 2799,
+    "variants": [
+      {
+        "id": "p013-v1",
+        "color": "Blue",
+        "colorHex": "#2C4E7C",
+        "images": [
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p013/v0-front.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p013/v0-front.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p013/v0-front.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p013/v0-front-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "front",
+            "alt": "P013 \u2014 front view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p013/v0-left.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p013/v0-left.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p013/v0-left.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p013/v0-left-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "left",
+            "alt": "P013 \u2014 left view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p013/v0-right.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p013/v0-right.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p013/v0-right.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p013/v0-right-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "right",
+            "alt": "P013 \u2014 right view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p013/v0-45.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p013/v0-45.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p013/v0-45.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p013/v0-45-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "45",
+            "alt": "P013 \u2014 45 view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p013/v0-folded.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p013/v0-folded.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p013/v0-folded.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p013/v0-folded-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "folded",
+            "alt": "P013 \u2014 folded view"
+          }
+        ],
+        "availability": "in-stock",
+        "sku": "AO-P013-BL"
+      },
+      {
+        "id": "p013-v2",
+        "color": "Gunmetal",
+        "colorHex": "#4B4E52",
+        "images": [
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p013/v1-front.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p013/v1-front.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p013/v1-front.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p013/v1-front-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "front",
+            "alt": "P013 \u2014 front view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p013/v1-left.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p013/v1-left.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p013/v1-left.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p013/v1-left-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "left",
+            "alt": "P013 \u2014 left view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p013/v1-right.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p013/v1-right.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p013/v1-right.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p013/v1-right-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "right",
+            "alt": "P013 \u2014 right view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p013/v1-box.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p013/v1-box.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p013/v1-box.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p013/v1-box-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "box",
+            "alt": "P013 \u2014 box view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p013/v1-folded.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p013/v1-folded.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p013/v1-folded.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p013/v1-folded-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "folded",
+            "alt": "P013 \u2014 folded view"
+          }
+        ],
+        "availability": "in-stock",
+        "sku": "AO-P013-GU"
+      },
+      {
+        "id": "p013-v3",
+        "color": "Golden",
+        "colorHex": "#C6973F",
+        "images": [
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p013/v2-front.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p013/v2-front.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p013/v2-front.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p013/v2-front-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "front",
+            "alt": "P013 \u2014 front view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p013/v2-left.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p013/v2-left.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p013/v2-left.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p013/v2-left-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "left",
+            "alt": "P013 \u2014 left view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p013/v2-right.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p013/v2-right.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p013/v2-right.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p013/v2-right-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "right",
+            "alt": "P013 \u2014 right view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p013/v2-folded.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p013/v2-folded.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p013/v2-folded.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p013/v2-folded-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "folded",
+            "alt": "P013 \u2014 folded view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p013/v2-45.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p013/v2-45.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p013/v2-45.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p013/v2-45-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "45",
+            "alt": "P013 \u2014 45 view"
+          }
+        ],
+        "availability": "limited-stock",
+        "sku": "AO-P013-GO"
+      }
+    ],
+    "defaultVariantId": "p013-v1",
+    "category": "computer",
+    "gender": "men",
+    "material": "Metal Alloy",
+    "frameShape": "aviator",
+    "frameWidth": 141,
+    "lensWidth": 49,
+    "bridgeWidth": 14,
+    "templeLength": 139,
+    "weight": 28,
+    "warranty": "1 Year Manufacturer Warranty",
+    "suitableFaceShapes": [
+      "heart",
+      "round",
+      "triangle"
+    ],
+    "recommendedLens": [
+      "photochromic",
+      "driving"
+    ],
+    "frequentlyBoughtWith": [
+      "p015",
+      "p019"
+    ],
+    "isNew": true,
+    "isBestseller": false,
+    "tags": [
+      "computer",
+      "aviator",
+      "men"
+    ],
+    "description": "The Qila Round is a metal alloy aviator frame from Lenskart House, engineered for all-day comfort with a refined, editorial finish suited to men faces."
+  },
+  {
+    "id": "p014",
+    "slug": "sheesh-mahal-cat-eye",
+    "name": "Sheesh Mahal Cat-Eye",
+    "brand": "Oakley",
+    "price": 1499,
+    "variants": [
+      {
+        "id": "p014-v1",
+        "color": "Tortoise",
+        "colorHex": "#6B4A2E",
+        "images": [
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p014/v0-front.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p014/v0-front.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p014/v0-front.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p014/v0-front-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "front",
+            "alt": "P014 \u2014 front view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p014/v0-left.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p014/v0-left.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p014/v0-left.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p014/v0-left-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "left",
+            "alt": "P014 \u2014 left view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p014/v0-right.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p014/v0-right.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p014/v0-right.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p014/v0-right-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "right",
+            "alt": "P014 \u2014 right view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p014/v0-45.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p014/v0-45.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p014/v0-45.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p014/v0-45-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "45",
+            "alt": "P014 \u2014 45 view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p014/v0-box.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p014/v0-box.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p014/v0-box.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p014/v0-box-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "box",
+            "alt": "P014 \u2014 box view"
+          }
+        ],
+        "availability": "in-stock",
+        "sku": "AO-P014-TO"
+      },
+      {
+        "id": "p014-v2",
+        "color": "Black",
+        "colorHex": "#1A1A1A",
+        "images": [
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p014/v1-front.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p014/v1-front.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p014/v1-front.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p014/v1-front-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "front",
+            "alt": "P014 \u2014 front view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p014/v1-left.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p014/v1-left.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p014/v1-left.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p014/v1-left-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "left",
+            "alt": "P014 \u2014 left view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p014/v1-right.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p014/v1-right.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p014/v1-right.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p014/v1-right-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "right",
+            "alt": "P014 \u2014 right view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p014/v1-accessories.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p014/v1-accessories.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p014/v1-accessories.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p014/v1-accessories-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "accessories",
+            "alt": "P014 \u2014 accessories view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p014/v1-on-face.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p014/v1-on-face.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p014/v1-on-face.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p014/v1-on-face-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "on-face",
+            "alt": "P014 \u2014 on face view"
+          }
+        ],
+        "availability": "limited-stock",
+        "sku": "AO-P014-BL"
+      }
+    ],
+    "defaultVariantId": "p014-v1",
+    "category": "kids",
+    "gender": "women",
+    "material": "Stainless Steel",
+    "frameShape": "cat-eye",
+    "frameWidth": 134,
+    "lensWidth": 49,
+    "bridgeWidth": 18,
+    "templeLength": 145,
+    "weight": 20,
+    "warranty": "1 Year Manufacturer Warranty",
+    "suitableFaceShapes": [
+      "heart",
+      "square",
+      "round"
+    ],
+    "recommendedLens": [
+      "photochromic",
+      "blue-cut"
+    ],
+    "frequentlyBoughtWith": [
+      "p001",
+      "p004"
+    ],
+    "isNew": false,
+    "isBestseller": false,
+    "tags": [
+      "kids",
+      "cat-eye",
+      "women"
+    ],
+    "description": "The Sheesh Mahal Cat-Eye is a stainless steel cat-eye frame from Oakley, engineered for all-day comfort with a refined, editorial finish suited to women faces."
+  },
+  {
+    "id": "p015",
+    "slug": "moti-bagh-aviator",
+    "name": "Moti Bagh Aviator",
+    "brand": "Police",
+    "price": 1999,
+    "variants": [
+      {
+        "id": "p015-v1",
+        "color": "Crystal Clear",
+        "colorHex": "#E7E7E7",
+        "images": [
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p015/v0-front.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p015/v0-front.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p015/v0-front.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p015/v0-front-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "front",
+            "alt": "P015 \u2014 front view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p015/v0-left.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p015/v0-left.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p015/v0-left.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p015/v0-left-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "left",
+            "alt": "P015 \u2014 left view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p015/v0-right.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p015/v0-right.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p015/v0-right.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p015/v0-right-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "right",
+            "alt": "P015 \u2014 right view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p015/v0-accessories.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p015/v0-accessories.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p015/v0-accessories.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p015/v0-accessories-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "accessories",
+            "alt": "P015 \u2014 accessories view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p015/v0-folded.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p015/v0-folded.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p015/v0-folded.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p015/v0-folded-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "folded",
+            "alt": "P015 \u2014 folded view"
+          }
+        ],
+        "availability": "limited-stock",
+        "sku": "AO-P015-CR"
+      },
+      {
+        "id": "p015-v2",
+        "color": "Rose Gold",
+        "colorHex": "#B76E79",
+        "images": [
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p015/v1-front.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p015/v1-front.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p015/v1-front.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p015/v1-front-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "front",
+            "alt": "P015 \u2014 front view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p015/v1-left.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p015/v1-left.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p015/v1-left.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p015/v1-left-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "left",
+            "alt": "P015 \u2014 left view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p015/v1-right.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p015/v1-right.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p015/v1-right.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p015/v1-right-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "right",
+            "alt": "P015 \u2014 right view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p015/v1-box.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p015/v1-box.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p015/v1-box.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p015/v1-box-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "box",
+            "alt": "P015 \u2014 box view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p015/v1-folded.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p015/v1-folded.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p015/v1-folded.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p015/v1-folded-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "folded",
+            "alt": "P015 \u2014 folded view"
+          }
+        ],
+        "availability": "store-only",
+        "sku": "AO-P015-RO"
+      }
+    ],
+    "defaultVariantId": "p015-v1",
+    "category": "reading",
+    "gender": "unisex",
+    "material": "Polycarbonate",
+    "frameShape": "wayfarer",
+    "frameWidth": 128,
+    "lensWidth": 47,
+    "bridgeWidth": 20,
+    "templeLength": 141,
+    "weight": 20,
+    "warranty": "1 Year Manufacturer Warranty",
+    "suitableFaceShapes": [
+      "heart",
+      "triangle",
+      "rectangle"
+    ],
+    "recommendedLens": [
+      "blue-cut",
+      "photochromic"
+    ],
+    "frequentlyBoughtWith": [
+      "p003",
+      "p005"
+    ],
+    "isNew": false,
+    "isBestseller": false,
+    "tags": [
+      "reading",
+      "wayfarer",
+      "unisex"
+    ],
+    "description": "The Moti Bagh Aviator is a polycarbonate wayfarer frame from Police, engineered for all-day comfort with a refined, editorial finish suited to unisex faces."
+  },
+  {
+    "id": "p016",
+    "slug": "anandpur-flex",
+    "name": "Anandpur Flex",
+    "brand": "Carrera",
+    "price": 1499,
+    "originalPrice": 2299,
+    "variants": [
+      {
+        "id": "p016-v1",
+        "color": "Gunmetal",
+        "colorHex": "#4B4E52",
+        "images": [
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p016/v0-front.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p016/v0-front.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p016/v0-front.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p016/v0-front-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "front",
+            "alt": "P016 \u2014 front view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p016/v0-left.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p016/v0-left.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p016/v0-left.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p016/v0-left-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "left",
+            "alt": "P016 \u2014 left view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p016/v0-right.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p016/v0-right.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p016/v0-right.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p016/v0-right-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "right",
+            "alt": "P016 \u2014 right view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p016/v0-45.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p016/v0-45.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p016/v0-45.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p016/v0-45-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "45",
+            "alt": "P016 \u2014 45 view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p016/v0-on-face.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p016/v0-on-face.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p016/v0-on-face.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p016/v0-on-face-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "on-face",
+            "alt": "P016 \u2014 on face view"
+          }
+        ],
+        "video": "https://pub-XXXX.r2.dev/products/p016/v0-turntable.mp4",
+        "availability": "store-only",
+        "sku": "AO-P016-GU"
+      },
+      {
+        "id": "p016-v2",
+        "color": "Blue",
+        "colorHex": "#2C4E7C",
+        "images": [
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p016/v1-front.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p016/v1-front.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p016/v1-front.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p016/v1-front-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "front",
+            "alt": "P016 \u2014 front view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p016/v1-left.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p016/v1-left.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p016/v1-left.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p016/v1-left-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "left",
+            "alt": "P016 \u2014 left view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p016/v1-right.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p016/v1-right.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p016/v1-right.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p016/v1-right-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "right",
+            "alt": "P016 \u2014 right view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p016/v1-accessories.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p016/v1-accessories.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p016/v1-accessories.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p016/v1-accessories-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "accessories",
+            "alt": "P016 \u2014 accessories view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p016/v1-45.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p016/v1-45.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p016/v1-45.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p016/v1-45-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "45",
+            "alt": "P016 \u2014 45 view"
+          }
+        ],
+        "video": "https://pub-XXXX.r2.dev/products/p016/v1-turntable.mp4",
+        "availability": "in-stock",
+        "sku": "AO-P016-BL"
+      }
+    ],
+    "defaultVariantId": "p016-v1",
+    "category": "frames",
+    "gender": "kids",
+    "material": "Acetate",
+    "frameShape": "browline",
+    "frameWidth": 145,
+    "lensWidth": 56,
+    "bridgeWidth": 19,
+    "templeLength": 145,
+    "weight": 20,
+    "warranty": "1 Year Manufacturer Warranty",
+    "suitableFaceShapes": [
+      "square",
+      "round",
+      "triangle"
+    ],
+    "recommendedLens": [
+      "single-vision",
+      "reading"
+    ],
+    "frequentlyBoughtWith": [
+      "p019",
+      "p002"
+    ],
+    "isNew": false,
+    "isBestseller": false,
+    "tags": [
+      "frames",
+      "browline",
+      "kids"
+    ],
+    "description": "The Anandpur Flex is a acetate browline frame from Carrera, engineered for all-day comfort with a refined, editorial finish suited to kids faces."
+  },
+  {
+    "id": "p017",
+    "slug": "fatehgarh-bold",
+    "name": "Fatehgarh Bold",
+    "brand": "Ray-Ban",
+    "price": 7999,
+    "variants": [
+      {
+        "id": "p017-v1",
+        "color": "Black",
+        "colorHex": "#1A1A1A",
+        "images": [
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p017/v0-front.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p017/v0-front.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p017/v0-front.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p017/v0-front-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "front",
+            "alt": "P017 \u2014 front view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p017/v0-left.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p017/v0-left.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p017/v0-left.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p017/v0-left-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "left",
+            "alt": "P017 \u2014 left view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p017/v0-right.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p017/v0-right.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p017/v0-right.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p017/v0-right-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "right",
+            "alt": "P017 \u2014 right view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p017/v0-accessories.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p017/v0-accessories.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p017/v0-accessories.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p017/v0-accessories-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "accessories",
+            "alt": "P017 \u2014 accessories view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p017/v0-folded.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p017/v0-folded.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p017/v0-folded.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p017/v0-folded-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "folded",
+            "alt": "P017 \u2014 folded view"
+          }
+        ],
+        "availability": "in-stock",
+        "sku": "AO-P017-BL"
+      },
+      {
+        "id": "p017-v2",
+        "color": "Golden",
+        "colorHex": "#C6973F",
+        "images": [
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p017/v1-front.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p017/v1-front.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p017/v1-front.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p017/v1-front-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "front",
+            "alt": "P017 \u2014 front view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p017/v1-left.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p017/v1-left.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p017/v1-left.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p017/v1-left-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "left",
+            "alt": "P017 \u2014 left view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p017/v1-right.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p017/v1-right.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p017/v1-right.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p017/v1-right-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "right",
+            "alt": "P017 \u2014 right view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p017/v1-45.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p017/v1-45.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p017/v1-45.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p017/v1-45-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "45",
+            "alt": "P017 \u2014 45 view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p017/v1-folded.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p017/v1-folded.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p017/v1-folded.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p017/v1-folded-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "folded",
+            "alt": "P017 \u2014 folded view"
+          }
+        ],
+        "availability": "in-stock",
+        "sku": "AO-P017-GO"
+      },
+      {
+        "id": "p017-v3",
+        "color": "Gunmetal",
+        "colorHex": "#4B4E52",
+        "images": [
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p017/v2-front.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p017/v2-front.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p017/v2-front.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p017/v2-front-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "front",
+            "alt": "P017 \u2014 front view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p017/v2-left.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p017/v2-left.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p017/v2-left.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p017/v2-left-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "left",
+            "alt": "P017 \u2014 left view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p017/v2-right.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p017/v2-right.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p017/v2-right.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p017/v2-right-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "right",
+            "alt": "P017 \u2014 right view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p017/v2-folded.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p017/v2-folded.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p017/v2-folded.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p017/v2-folded-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "folded",
+            "alt": "P017 \u2014 folded view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p017/v2-on-face.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p017/v2-on-face.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p017/v2-on-face.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p017/v2-on-face-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "on-face",
+            "alt": "P017 \u2014 on face view"
+          }
+        ],
+        "availability": "limited-stock",
+        "sku": "AO-P017-GU"
+      }
+    ],
+    "defaultVariantId": "p017-v1",
+    "category": "sunglasses",
+    "gender": "men",
+    "material": "TR90 Flex Titanium",
+    "frameShape": "oval",
+    "frameWidth": 130,
+    "lensWidth": 48,
+    "bridgeWidth": 14,
+    "templeLength": 147,
+    "weight": 19,
+    "warranty": "1 Year Manufacturer Warranty",
+    "suitableFaceShapes": [
+      "rectangle",
+      "square",
+      "heart"
+    ],
+    "recommendedLens": [
+      "single-vision",
+      "reading"
+    ],
+    "frequentlyBoughtWith": [
+      "p012",
+      "p019"
+    ],
+    "isNew": false,
+    "isBestseller": true,
+    "tags": [
+      "sunglasses",
+      "oval",
+      "men"
+    ],
+    "description": "The Fatehgarh Bold is a tr90 flex titanium oval frame from Ray-Ban, engineered for all-day comfort with a refined, editorial finish suited to men faces."
+  },
+  {
+    "id": "p018",
+    "slug": "sutlej-wave",
+    "name": "Sutlej Wave",
+    "brand": "Titan",
+    "price": 2999,
+    "variants": [
+      {
+        "id": "p018-v1",
+        "color": "Black",
+        "colorHex": "#1A1A1A",
+        "images": [
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p018/v0-front.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p018/v0-front.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p018/v0-front.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p018/v0-front-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "front",
+            "alt": "P018 \u2014 front view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p018/v0-left.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p018/v0-left.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p018/v0-left.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p018/v0-left-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "left",
+            "alt": "P018 \u2014 left view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p018/v0-right.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p018/v0-right.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p018/v0-right.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p018/v0-right-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "right",
+            "alt": "P018 \u2014 right view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p018/v0-45.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p018/v0-45.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p018/v0-45.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p018/v0-45-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "45",
+            "alt": "P018 \u2014 45 view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p018/v0-folded.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p018/v0-folded.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p018/v0-folded.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p018/v0-folded-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "folded",
+            "alt": "P018 \u2014 folded view"
+          }
+        ],
+        "availability": "in-stock",
+        "sku": "AO-P018-BL"
+      },
+      {
+        "id": "p018-v2",
+        "color": "Silver",
+        "colorHex": "#C7CBD1",
+        "images": [
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p018/v1-front.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p018/v1-front.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p018/v1-front.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p018/v1-front-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "front",
+            "alt": "P018 \u2014 front view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p018/v1-left.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p018/v1-left.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p018/v1-left.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p018/v1-left-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "left",
+            "alt": "P018 \u2014 left view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p018/v1-right.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p018/v1-right.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p018/v1-right.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p018/v1-right-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "right",
+            "alt": "P018 \u2014 right view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p018/v1-folded.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p018/v1-folded.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p018/v1-folded.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p018/v1-folded-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "folded",
+            "alt": "P018 \u2014 folded view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p018/v1-accessories.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p018/v1-accessories.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p018/v1-accessories.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p018/v1-accessories-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "accessories",
+            "alt": "P018 \u2014 accessories view"
+          }
+        ],
+        "availability": "limited-stock",
+        "sku": "AO-P018-SI"
+      }
+    ],
+    "defaultVariantId": "p018-v1",
+    "category": "computer",
+    "gender": "women",
+    "material": "Metal Alloy",
+    "frameShape": "round",
+    "frameWidth": 136,
+    "lensWidth": 49,
+    "bridgeWidth": 19,
+    "templeLength": 149,
+    "weight": 23,
+    "warranty": "1 Year Manufacturer Warranty",
+    "suitableFaceShapes": [
+      "square",
+      "round",
+      "heart"
+    ],
+    "recommendedLens": [
+      "blue-cut",
+      "computer"
+    ],
+    "frequentlyBoughtWith": [
+      "p005",
+      "p014"
+    ],
+    "isNew": false,
+    "isBestseller": false,
+    "tags": [
+      "computer",
+      "round",
+      "women"
+    ],
+    "description": "The Sutlej Wave is a metal alloy round frame from Titan, engineered for all-day comfort with a refined, editorial finish suited to women faces."
+  },
+  {
+    "id": "p019",
+    "slug": "jalandhar-edge",
+    "name": "Jalandhar Edge",
+    "brand": "Fastrack",
+    "price": 3499,
+    "originalPrice": 3999,
+    "variants": [
+      {
+        "id": "p019-v1",
+        "color": "Crystal Clear",
+        "colorHex": "#E7E7E7",
+        "images": [
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p019/v0-front.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p019/v0-front.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p019/v0-front.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p019/v0-front-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "front",
+            "alt": "P019 \u2014 front view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p019/v0-left.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p019/v0-left.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p019/v0-left.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p019/v0-left-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "left",
+            "alt": "P019 \u2014 left view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p019/v0-right.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p019/v0-right.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p019/v0-right.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p019/v0-right-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "right",
+            "alt": "P019 \u2014 right view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p019/v0-accessories.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p019/v0-accessories.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p019/v0-accessories.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p019/v0-accessories-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "accessories",
+            "alt": "P019 \u2014 accessories view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p019/v0-box.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p019/v0-box.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p019/v0-box.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p019/v0-box-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "box",
+            "alt": "P019 \u2014 box view"
+          }
+        ],
+        "availability": "limited-stock",
+        "sku": "AO-P019-CR"
+      },
+      {
+        "id": "p019-v2",
+        "color": "Gunmetal",
+        "colorHex": "#4B4E52",
+        "images": [
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p019/v1-front.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p019/v1-front.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p019/v1-front.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p019/v1-front-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "front",
+            "alt": "P019 \u2014 front view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p019/v1-left.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p019/v1-left.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p019/v1-left.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p019/v1-left-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "left",
+            "alt": "P019 \u2014 left view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p019/v1-right.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p019/v1-right.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p019/v1-right.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p019/v1-right-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "right",
+            "alt": "P019 \u2014 right view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p019/v1-45.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p019/v1-45.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p019/v1-45.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p019/v1-45-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "45",
+            "alt": "P019 \u2014 45 view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p019/v1-folded.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p019/v1-folded.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p019/v1-folded.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p019/v1-folded-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "folded",
+            "alt": "P019 \u2014 folded view"
+          }
+        ],
+        "availability": "store-only",
+        "sku": "AO-P019-GU"
+      }
+    ],
+    "defaultVariantId": "p019-v1",
+    "category": "kids",
+    "gender": "unisex",
+    "material": "Stainless Steel",
+    "frameShape": "square",
+    "frameWidth": 130,
+    "lensWidth": 54,
+    "bridgeWidth": 15,
+    "templeLength": 146,
+    "weight": 22,
+    "warranty": "1 Year Manufacturer Warranty",
+    "suitableFaceShapes": [
+      "square",
+      "round",
+      "oval"
+    ],
+    "recommendedLens": [
+      "blue-cut",
+      "progressive"
+    ],
+    "frequentlyBoughtWith": [
+      "p005",
+      "p002"
+    ],
+    "isNew": true,
+    "isBestseller": false,
+    "tags": [
+      "kids",
+      "square",
+      "unisex"
+    ],
+    "description": "The Jalandhar Edge is a stainless steel square frame from Fastrack, engineered for all-day comfort with a refined, editorial finish suited to unisex faces."
+  },
+  {
+    "id": "p020",
+    "slug": "chandni-oval",
+    "name": "Chandni Oval",
+    "brand": "Vincent Chase",
+    "price": 3499,
+    "variants": [
+      {
+        "id": "p020-v1",
+        "color": "Gunmetal",
+        "colorHex": "#4B4E52",
+        "images": [
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p020/v0-front.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p020/v0-front.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p020/v0-front.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p020/v0-front-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "front",
+            "alt": "P020 \u2014 front view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p020/v0-left.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p020/v0-left.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p020/v0-left.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p020/v0-left-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "left",
+            "alt": "P020 \u2014 left view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p020/v0-right.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p020/v0-right.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p020/v0-right.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p020/v0-right-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "right",
+            "alt": "P020 \u2014 right view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p020/v0-accessories.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p020/v0-accessories.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p020/v0-accessories.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p020/v0-accessories-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "accessories",
+            "alt": "P020 \u2014 accessories view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p020/v0-folded.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p020/v0-folded.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p020/v0-folded.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p020/v0-folded-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "folded",
+            "alt": "P020 \u2014 folded view"
+          }
+        ],
+        "availability": "store-only",
+        "sku": "AO-P020-GU"
+      },
+      {
+        "id": "p020-v2",
+        "color": "Blue",
+        "colorHex": "#2C4E7C",
+        "images": [
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p020/v1-front.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p020/v1-front.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p020/v1-front.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p020/v1-front-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "front",
+            "alt": "P020 \u2014 front view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p020/v1-left.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p020/v1-left.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p020/v1-left.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p020/v1-left-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "left",
+            "alt": "P020 \u2014 left view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p020/v1-right.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p020/v1-right.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p020/v1-right.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p020/v1-right-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "right",
+            "alt": "P020 \u2014 right view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p020/v1-folded.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p020/v1-folded.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p020/v1-folded.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p020/v1-folded-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "folded",
+            "alt": "P020 \u2014 folded view"
+          },
+          {
+            "url": "https://pub-XXXX.r2.dev/products/p020/v1-box.jpg",
+            "webp": "https://pub-XXXX.r2.dev/products/p020/v1-box.webp",
+            "avif": "https://pub-XXXX.r2.dev/products/p020/v1-box.avif",
+            "thumbnail": "https://pub-XXXX.r2.dev/products/p020/v1-box-thumb.webp",
+            "blurPlaceholder": "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TA8AAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+            "angle": "box",
+            "alt": "P020 \u2014 box view"
+          }
+        ],
+        "availability": "in-stock",
+        "sku": "AO-P020-BL"
+      }
+    ],
+    "defaultVariantId": "p020-v1",
+    "category": "reading",
+    "gender": "kids",
+    "material": "Polycarbonate",
+    "frameShape": "rectangle",
+    "frameWidth": 128,
+    "lensWidth": 56,
+    "bridgeWidth": 20,
+    "templeLength": 146,
+    "weight": 22,
+    "warranty": "1 Year Manufacturer Warranty",
+    "suitableFaceShapes": [
+      "rectangle",
+      "oval",
+      "square"
+    ],
+    "recommendedLens": [
+      "progressive",
+      "single-vision"
+    ],
+    "frequentlyBoughtWith": [
+      "p010",
+      "p012"
+    ],
+    "isNew": false,
+    "isBestseller": false,
+    "tags": [
+      "reading",
+      "rectangle",
+      "kids"
+    ],
+    "description": "The Chandni Oval is a polycarbonate rectangle frame from Vincent Chase, engineered for all-day comfort with a refined, editorial finish suited to kids faces."
+  }
+]

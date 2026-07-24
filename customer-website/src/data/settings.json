@@ -1,0 +1,29 @@
+{
+  "storeName": "",
+  "tagline": "",
+  "logoUrl": "",
+  "faviconUrl": "",
+  "address": "",
+  "phone": "",
+  "email": "",
+  "hours": "",
+  "mapEmbedUrl": "",
+  "rating": 0,
+  "reviewCount": 0,
+  "gstNumber": "",
+  "partnerCredentials": [],
+  "socials": { "instagram": "", "facebook": "", "youtube": "" },
+  "colors": { "primary": "#0f172a", "accent": "#c8a15a" },
+  "paymentUpiId": "",
+  "paymentUpiName": "",
+  "paymentUpiQrUrl": "",
+  "paymentInstructions": "",
+  "paymentBankName": "",
+  "paymentAccountNumber": "",
+  "paymentIfsc": "",
+  "paymentAccountHolder": "",
+  "featureFlags": {
+    "enable360Spin": true,
+    "enableVirtualTryOn": true
+  }
+}

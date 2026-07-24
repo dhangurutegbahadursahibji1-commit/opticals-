@@ -1,0 +1,44 @@
+[
+  {
+    "type": "single-vision",
+    "name": "Single Vision",
+    "description": "One prescription power across the whole lens, correcting either near- or far-sightedness.",
+    "whoFor": "Most first-time glasses wearers with a single, simple prescription."
+  },
+  {
+    "type": "blue-cut",
+    "name": "Blue-Cut",
+    "description": "Filters high-energy blue light from screens to reduce digital eye strain.",
+    "whoFor": "Anyone spending 4+ hours daily on laptops, phones or TVs."
+  },
+  {
+    "type": "progressive",
+    "name": "Progressive",
+    "description": "A seamless gradient of powers in one lens \u2014 near, intermediate and distance \u2014 with no visible line.",
+    "whoFor": "Presbyopia (40+) wearers who want one pair for every distance."
+  },
+  {
+    "type": "photochromic",
+    "name": "Photochromic",
+    "description": "Clear indoors, automatically darkens in sunlight \u2014 one lens for day and night.",
+    "whoFor": "People who move between indoor and bright outdoor settings often."
+  },
+  {
+    "type": "reading",
+    "name": "Reading",
+    "description": "A fixed near-vision power optimised for books, menus and close-up work.",
+    "whoFor": "Anyone who only needs correction for close-range reading."
+  },
+  {
+    "type": "computer",
+    "name": "Computer",
+    "description": "Optimised focal length for arm's-length screen distance, reducing squinting and fatigue.",
+    "whoFor": "Desk workers spending most of the day at a monitor."
+  },
+  {
+    "type": "driving",
+    "name": "Driving",
+    "description": "Anti-glare, polarised tint tuned to cut headlight glare and road glare.",
+    "whoFor": "Frequent drivers, especially for night and highway driving."
+  }
+]

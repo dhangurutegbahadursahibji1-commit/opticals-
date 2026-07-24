@@ -1,0 +1,10 @@
+import { Module } from '@nestjs/common';
+import { CatalogueController, CatalogueAdminController } from './catalogue.controller';
+import { CatalogueService } from './catalogue.service';
+
+@Module({
+  controllers: [CatalogueController, CatalogueAdminController],
+  providers: [CatalogueService],
+  exports: [CatalogueService]
+})
+export class CatalogueModule {}

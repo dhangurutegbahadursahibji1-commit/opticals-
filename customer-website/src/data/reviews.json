@@ -1,0 +1,66 @@
+[
+  {
+    "id": "r1",
+    "name": "Simran Kaur",
+    "rating": 4,
+    "review": "Loved the try-on experience \u2014 got exactly the pair I wanted.",
+    "date": "2026-01-10",
+    "source": "google"
+  },
+  {
+    "id": "r2",
+    "name": "Rohit Mehta",
+    "rating": 4,
+    "review": "Quick eye test and the staff helped me pick the right lens type.",
+    "date": "2026-02-11",
+    "source": "google"
+  },
+  {
+    "id": "r3",
+    "name": "Gurpreet Singh",
+    "rating": 4,
+    "review": "Loved the try-on experience \u2014 got exactly the pair I wanted.",
+    "date": "2026-03-12",
+    "source": "google"
+  },
+  {
+    "id": "r4",
+    "name": "Anjali Sharma",
+    "rating": 5,
+    "review": "Good prices and the frames feel sturdy. Been coming here for years.",
+    "date": "2026-04-13",
+    "source": "google"
+  },
+  {
+    "id": "r5",
+    "name": "Harpreet Bhatia",
+    "rating": 5,
+    "review": "Quick eye test and the staff helped me pick the right lens type.",
+    "date": "2026-05-14",
+    "source": "google"
+  },
+  {
+    "id": "r6",
+    "name": "Vikram Aggarwal",
+    "rating": 4,
+    "review": "Quick eye test and the staff helped me pick the right lens type.",
+    "date": "2026-06-15",
+    "source": "google"
+  },
+  {
+    "id": "r7",
+    "name": "Priya Nanda",
+    "rating": 4,
+    "review": "Good prices and the frames feel sturdy. Been coming here for years.",
+    "date": "2026-01-16",
+    "source": "google"
+  },
+  {
+    "id": "r8",
+    "name": "Amandeep Sidhu",
+    "rating": 4,
+    "review": "Quick eye test and the staff helped me pick the right lens type.",
+    "date": "2026-02-17",
+    "source": "google"
+  }
+]

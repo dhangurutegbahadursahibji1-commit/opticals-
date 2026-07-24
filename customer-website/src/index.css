@@ -1,0 +1,160 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── Theme Engine — RGB triplets consumed by tailwind.config.ts ─────────── */
+:root,
+[data-theme='luxury-white'] {
+  --color-primary: 11 29 58;      /* #0B1D3A */
+  --color-accent: 198 151 63;     /* #C6973F */
+  --color-accent-light: 232 201 122;
+  --color-surface: 248 246 242;   /* #F8F6F2 */
+  --color-dark-bg: 10 10 15;      /* Used for dark mode */
+  --color-dark-card: 255 255 255; /* #FFFFFF used as generic card background */
+  --color-text: 11 29 58;         /* #0B1D3A for text */
+  --color-muted: 107 114 128;     /* Keep standard muted text for readability */
+}
+[data-theme='premium-dark'] {
+  --color-primary: 232 201 122;
+  --color-accent: 198 151 63;
+  --color-accent-light: 232 201 122;
+  --color-surface: 10 10 15;
+  --color-dark-bg: 6 6 9;
+  --color-dark-card: 16 16 22;
+  --color-text: 240 240 245;
+  --color-muted: 148 148 160;
+}
+[data-theme='minimal-glass'] {
+  --color-primary: 30 41 59;
+  --color-accent: 148 163 184;
+  --color-accent-light: 203 213 225;
+  --color-surface: 250 250 252;
+  --color-dark-bg: 15 23 42;
+  --color-dark-card: 30 41 59;
+  --color-text: 30 41 59;
+  --color-muted: 100 116 139;
+}
+[data-theme='royal-blue'] {
+  --color-primary: 15 23 90;
+  --color-accent: 192 192 192;
+  --color-accent-light: 224 224 224;
+  --color-surface: 8 12 40;
+  --color-dark-bg: 5 8 28;
+  --color-dark-card: 12 18 48;
+  --color-text: 235 238 250;
+  --color-muted: 150 158 190;
+}
+[data-theme='titanium'] {
+  --color-primary: 60 64 72;
+  --color-accent: 148 154 163;
+  --color-accent-light: 200 204 210;
+  --color-surface: 244 244 246;
+  --color-dark-bg: 24 26 30;
+  --color-dark-card: 40 42 48;
+  --color-text: 32 34 38;
+  --color-muted: 120 124 132;
+}
+[data-theme='gold'] {
+  --color-primary: 58 40 8;
+  --color-accent: 212 168 68;
+  --color-accent-light: 240 210 130;
+  --color-surface: 253 248 235;
+  --color-dark-bg: 26 18 4;
+  --color-dark-card: 44 32 10;
+  --color-text: 46 32 10;
+  --color-muted: 140 120 80;
+}
+[data-theme='platinum'] {
+  --color-primary: 45 48 56;
+  --color-accent: 176 180 190;
+  --color-accent-light: 214 217 224;
+  --color-surface: 248 248 250;
+  --color-dark-bg: 20 22 26;
+  --color-dark-card: 34 36 42;
+  --color-text: 28 30 36;
+  --color-muted: 118 122 132;
+}
+
+/* ── Design Tokens ─────────── */
+:root {
+  --blur-sm: 4px;
+  --blur-md: 12px;
+  --blur-lg: 24px;
+  --glass-opacity: 0.65;
+  --glass-border: rgba(255, 255, 255, 0.2);
+  --shadow-soft: 0 4px 20px rgba(0, 0, 0, 0.05);
+  --shadow-deep: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-surface text-text font-body antialiased;
+  }
+  html.dark body {
+    @apply bg-dark-bg text-surface;
+  }
+  h1, h2, h3, h4 {
+    @apply font-display;
+  }
+  :focus-visible {
+    outline: 2px solid #C6973F;
+    outline-offset: 2px;
+  }
+  html.high-contrast {
+    filter: contrast(1.15);
+  }
+  html.large-text {
+    font-size: 125%;
+  }
+}
+/* ── Custom cursor — fine-pointer devices only, respects reduced motion ── */
+@media (pointer: fine) and (prefers-reduced-motion: no-preference) {
+  body, a, button, [role='button'] { cursor: none; }
+}
+
+/* Signature gold shimmer border — rotating conic gradient, like light catching a lens */
+@property --angle {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
+}
+
+.shimmer-card {
+  position: relative;
+  isolation: isolate;
+}
+.shimmer-card::before {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  border-radius: inherit;
+  padding: 2px;
+  background: conic-gradient(from var(--angle), #C6973F, #E8C97A, #FFFFFF33, #C6973F);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: -1;
+}
+.shimmer-card:hover::before {
+  opacity: 1;
+  animation: shimmer-border 2s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+::-webkit-scrollbar { width: 10px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #C6973F55; border-radius: 999px; }

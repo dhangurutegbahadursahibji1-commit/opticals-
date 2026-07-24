@@ -1,0 +1,37 @@
+[
+  {
+    "id": "o1",
+    "title": "Festival Offer",
+    "description": "Flat discount storewide on all frames and sunglasses this festive season.",
+    "discount": "20% OFF",
+    "validUntil": "2026-11-15",
+    "image": "https://pub-XXXX.r2.dev/offers/festival.webp",
+    "code": "FEST20"
+  },
+  {
+    "id": "o2",
+    "title": "Student Discount",
+    "description": "Valid student ID gets you a special price on every frame, every day.",
+    "discount": "15% OFF",
+    "validUntil": "2026-12-31",
+    "image": "https://pub-XXXX.r2.dev/offers/student.webp",
+    "code": "STUDENT15"
+  },
+  {
+    "id": "o3",
+    "title": "Senior Citizen Offer",
+    "description": "A thank-you discount for our senior customers, on frames and lenses.",
+    "discount": "10% OFF",
+    "validUntil": "2026-12-31",
+    "image": "https://pub-XXXX.r2.dev/offers/senior.webp"
+  },
+  {
+    "id": "o4",
+    "title": "Frame + Lens Combo",
+    "description": "Bundle any frame with premium lenses and save on the combined price.",
+    "discount": "Up to \u20b91,500 OFF",
+    "validUntil": "2026-10-31",
+    "image": "https://pub-XXXX.r2.dev/offers/combo.webp",
+    "code": "COMBO"
+  }
+]
