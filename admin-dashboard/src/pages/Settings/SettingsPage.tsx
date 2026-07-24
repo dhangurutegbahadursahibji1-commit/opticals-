@@ -11,6 +11,8 @@ import ImageUploadField from '../../components/common/ImageUploadField';
 interface StoreSettings {
   storeName: string;
   tagline: string;
+  introLine1: string; // Text shown inside the LEFT lens of the welcome animation
+  introLine2: string; // Text shown inside the RIGHT lens of the welcome animation
   logoUrl: string;
   faviconUrl: string;
 
@@ -59,7 +61,7 @@ interface PaymentSettings {
 }
 
 const EMPTY_SETTINGS: StoreSettings = {
-  storeName: '', tagline: '', logoUrl: '', faviconUrl: '',
+  storeName: '', tagline: '', introLine1: '', introLine2: '', logoUrl: '', faviconUrl: '',
   address: '', phone: '', email: '', hours: '', mapEmbedUrl: '',
   socials: { instagram: '', facebook: '', youtube: '' },
   colors: { primary: '#0f172a', accent: '#c8a15a' },
@@ -204,6 +206,18 @@ export default function SettingsPage() {
       <Section title="Store Identity" description="Name, tagline and branding images shown across the storefront.">
         <Field label="Store name" value={settings.storeName} onChange={(v) => update({ storeName: v })} placeholder="Your Optical Store" />
         <Field label="Tagline" value={settings.tagline} onChange={(v) => update({ tagline: v })} placeholder="We care about your vision." />
+        <Field
+          label="Welcome animation — Left lens"
+          value={settings.introLine1}
+          onChange={(v) => update({ introLine1: v })}
+          placeholder="WE CARE"
+        />
+        <Field
+          label="Welcome animation — Right lens"
+          value={settings.introLine2}
+          onChange={(v) => update({ introLine2: v })}
+          placeholder="ABOUT YOUR VISION"
+        />
         <ImageUploadField label="Logo" value={settings.logoUrl} onChange={(v) => update({ logoUrl: v })} />
         <ImageUploadField label="Favicon" value={settings.faviconUrl} onChange={(v) => update({ faviconUrl: v })} />
       </Section>

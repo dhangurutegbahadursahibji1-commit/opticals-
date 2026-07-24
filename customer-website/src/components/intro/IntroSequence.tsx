@@ -10,18 +10,8 @@ interface IntroSequenceProps {
   onComplete: () => void;
   tagline?: string;
   storeName?: string;
-}
-
-function taglineLines(tagline: string | undefined, storeName: string | undefined): string[] {
-  const defaultLine = storeName ? `Welcome to ${storeName}` : 'We care about your vision.';
-  const words = (tagline || defaultLine).trim().split(/\s+/).filter(Boolean);
-  if (words.length === 0) return [defaultLine.toUpperCase()];
-  const chunkSize = Math.max(1, Math.ceil(words.length / 3));
-  const lines: string[] = [];
-  for (let i = 0; i < words.length; i += chunkSize) {
-    lines.push(words.slice(i, i + chunkSize).join(' ').toUpperCase());
-  }
-  return lines.slice(0, 3);
+  introLine1?: string; // Text shown inside the LEFT lens
+  introLine2?: string; // Text shown inside the RIGHT lens
 }
 
 const LENS_LEFT =
@@ -40,12 +30,10 @@ const LENS_RIGHT =
 
 const BRIDGE = 'M 460,120 C 500,100 700,100 740,120';
 
-export default function IntroSequence({ onComplete, tagline, storeName }: IntroSequenceProps) {
+export default function IntroSequence({ onComplete, introLine1, introLine2, storeName }: IntroSequenceProps) {
   const [visible, setVisible] = useState(true);
   const [phase, setPhase] = useState<'rims' | 'temples' | 'text' | 'exit'>('rims');
   const { reduced } = useReducedMotionPref();
-  const lines = taglineLines(tagline, storeName);
-  const lastLine = lines[lines.length - 1];
 
   const done = useRef(false);
   const finish = () => {
@@ -79,6 +67,11 @@ export default function IntroSequence({ onComplete, tagline, storeName }: IntroS
     };
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
+
+  // Default left lens: "Welcome to <StoreName>" or "WE CARE"
+  const leftText = (introLine1 || (storeName ? `Welcome to ${storeName}` : 'WE CARE')).toUpperCase();
+  // Default right lens: "ABOUT YOUR VISION"
+  const rightText = (introLine2 || 'ABOUT YOUR VISION').toUpperCase();
 
   return (
     <AnimatePresence onExitComplete={finish}>
@@ -154,30 +147,28 @@ export default function IntroSequence({ onComplete, tagline, storeName }: IntroS
               <ellipse cx="1155" cy="115" rx="12" ry="4" fill="none" stroke={FRAME_STROKE} strokeWidth="4" transform="rotate(25 1155 115)" />
             </g>
 
-            {/* Text inside lenses */}
+            {/* Left lens text */}
             <motion.g
               textAnchor="middle" fontFamily="Inter, sans-serif" fontWeight={700}
               initial={{ opacity: 0, y: 12 }}
               animate={{ opacity: phase === 'text' || phase === 'exit' ? 1 : 0, y: phase === 'text' || phase === 'exit' ? 0 : 12 }}
               transition={{ duration: 0.5 }}
             >
-              {lines.map((line, i) => (
-                <text key={i} x="265" y={275 + i * 45} fill={line === lastLine ? ACCENT : FRAME_STROKE} fontSize={line === lastLine ? 38 : 34}>
-                  {line}
-                </text>
-              ))}
+              <text x="265" y="275" fill={FRAME_STROKE} fontSize={34}>
+                {leftText}
+              </text>
             </motion.g>
+
+            {/* Right lens text */}
             <motion.g
               textAnchor="middle" fontFamily="Inter, sans-serif" fontWeight={700}
               initial={{ opacity: 0, y: 12 }}
               animate={{ opacity: phase === 'text' || phase === 'exit' ? 1 : 0, y: phase === 'text' || phase === 'exit' ? 0 : 12 }}
               transition={{ duration: 0.5, delay: 0.15 }}
             >
-              {lines.map((line, i) => (
-                <text key={i} x="935" y={275 + i * 45} fill={line === lastLine ? ACCENT : FRAME_STROKE} fontSize={line === lastLine ? 38 : 34}>
-                  {line}
-                </text>
-              ))}
+              <text x="935" y="275" fill={ACCENT} fontSize={38}>
+                {rightText}
+              </text>
             </motion.g>
           </svg>
         </motion.div>

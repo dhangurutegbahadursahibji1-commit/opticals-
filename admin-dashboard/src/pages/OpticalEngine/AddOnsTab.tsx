@@ -27,7 +27,11 @@ export default function AddOnsTab() {
 
   const load = () => {
     api.get('/admin/addons')
-      .then((res: any) => setAddOns(res.data))
+      .then((res: any) => {
+        // Backend wraps response in { success, data: [...] } — unwrap it
+        const items = Array.isArray(res.data) ? res.data : res.data?.data ?? [];
+        setAddOns(items);
+      })
       .catch(() => setError('Could not load add-ons.'));
   };
 

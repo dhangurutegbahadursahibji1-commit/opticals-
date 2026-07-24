@@ -280,6 +280,8 @@ export interface GalleryImage {
 export interface Settings {
   storeName: string;
   tagline?: string;
+  introLine1?: string; // Left lens text in welcome animation
+  introLine2?: string; // Right lens text in welcome animation
   logoUrl?: string;
   faviconUrl?: string;
   address: string;

@@ -25,7 +25,11 @@ export default function LensesTab() {
 
   const load = () => {
     api.get('/admin/lenses')
-      .then((res: any) => setLenses(res.data))
+      .then((res: any) => {
+        // Backend wraps response in { success, data: [...] } — unwrap it
+        const items = Array.isArray(res.data) ? res.data : res.data?.data ?? [];
+        setLenses(items);
+      })
       .catch(() => setError('Could not load lenses.'));
   };
 

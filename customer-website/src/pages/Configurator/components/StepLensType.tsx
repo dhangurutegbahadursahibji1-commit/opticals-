@@ -35,7 +35,7 @@ export default function StepLensType() {
 
   const handleExpertRecommendation = () => {
     setExpertAssistance(true);
-    setLensType('single-vision'); // Default fallback, expert will change it
+    setLensType(null); // Default fallback, expert will change it
     goToStep(4); // Skip to review
   };
 

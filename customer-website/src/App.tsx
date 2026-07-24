@@ -17,7 +17,7 @@ const INTRO_SESSION_KEY = 'ao-intro-shown';
 
 export default function App() {
   const element = useRoutes(routes);
-  const { tagline, storeName } = useSettings();
+  const { tagline, storeName, introLine1, introLine2 } = useSettings();
   const [showIntro, setShowIntro] = useState(
     () => sessionStorage.getItem(INTRO_SESSION_KEY) !== 'true',
   );
@@ -30,7 +30,15 @@ export default function App() {
   return (
     <>
       <CustomCursor />
-      {showIntro && <IntroSequence onComplete={handleIntroComplete} tagline={tagline} storeName={storeName} />}
+      {showIntro && (
+        <IntroSequence
+          onComplete={handleIntroComplete}
+          tagline={tagline}
+          storeName={storeName}
+          introLine1={introLine1}
+          introLine2={introLine2}
+        />
+      )}
       <Suspense fallback={<PageLoader />}>{element}</Suspense>
     </>
   );
