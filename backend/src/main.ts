@@ -15,8 +15,21 @@ async function bootstrap() {
   app.use(helmet());
   app.use(compression());
 
-  const corsOrigins = (process.env.CORS_ORIGINS ?? 'http://localhost:5173,http://localhost:5174').split(',');
-  app.enableCors({ origin: corsOrigins, credentials: true });
+  const defaultOrigins = [
+    'http://localhost:5173',
+    'http://localhost:5174',
+    'https://opticals-beta.vercel.app',   // admin dashboard
+    'https://opticals-eight.vercel.app',  // customer website
+  ].join(',');
+
+  const corsOrigins = (process.env.CORS_ORIGINS ?? defaultOrigins).split(',').map(o => o.trim());
+
+  app.enableCors({
+    origin: corsOrigins,
+    methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
+    allowedHeaders: ['Content-Type', 'Authorization'],
+    credentials: true,
+  });
 
   app.enableVersioning({ type: VersioningType.URI, defaultVersion: '1' });
   app.setGlobalPrefix('api');
