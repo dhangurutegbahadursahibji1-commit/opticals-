@@ -13,7 +13,7 @@ export default function OpticalEnginePage() {
       <div className="border-b border-gray-200">
         <nav className="-mb-px flex space-x-8">
           <NavLink
-            to="lenses"
+            to="/optical-engine/lenses"
             className={({ isActive }) =>
               `whitespace-nowrap pb-4 px-1 border-b-2 font-medium text-sm ${
                 isActive
@@ -25,7 +25,7 @@ export default function OpticalEnginePage() {
             Lenses
           </NavLink>
           <NavLink
-            to="add-ons"
+            to="/optical-engine/add-ons"
             className={({ isActive }) =>
               `whitespace-nowrap pb-4 px-1 border-b-2 font-medium text-sm ${
                 isActive
@@ -41,7 +41,7 @@ export default function OpticalEnginePage() {
 
       <div className="bg-white rounded-lg shadow p-6">
         <Routes>
-          <Route path="/" element={<Navigate to="lenses" replace />} />
+          <Route path="/" element={<Navigate to="/optical-engine/lenses" replace />} />
           <Route path="lenses" element={<LensesTab />} />
           <Route path="add-ons" element={<AddOnsTab />} />
         </Routes>
