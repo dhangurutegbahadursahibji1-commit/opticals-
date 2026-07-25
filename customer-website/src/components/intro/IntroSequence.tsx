@@ -10,8 +10,8 @@ interface IntroSequenceProps {
   onComplete: () => void;
   tagline?: string;
   storeName?: string;
-  introLine1?: string; // Text shown inside the LEFT lens
-  introLine2?: string; // Text shown inside the RIGHT lens
+  introLine1?: string;
+  introLine2?: string;
 }
 
 const LENS_LEFT =
@@ -35,56 +35,63 @@ export default function IntroSequence({ onComplete, introLine1, introLine2, stor
   const [phase, setPhase] = useState<'rims' | 'temples' | 'text' | 'exit'>('rims');
   const { reduced } = useReducedMotionPref();
 
+  // called exactly once — after AnimatePresence fully removes the node from DOM
   const done = useRef(false);
-  const finish = () => {
+  const handleDone = () => {
     if (done.current) return;
     done.current = true;
     sessionStorage.setItem(SESSION_KEY, '1');
-    setVisible(false);
     onComplete();
   };
 
-  useEffect(() => {
-    // Hard fallback — always dismiss within 6 seconds no matter what
-    const hardFallback = setTimeout(finish, 6000);
+  // starts the exit — just sets visible=false, lets AnimatePresence animate
+  // it out, then handleDone fires via onExitComplete. Never calls onComplete directly.
+  const startExit = () => {
+    if (done.current) return;
+    setVisible(false);
+  };
 
+  useEffect(() => {
     if (reduced) {
-      clearTimeout(hardFallback);
-      finish();
+      handleDone();
       return;
     }
 
-    // Phase timeline
-    const t1 = setTimeout(() => setPhase('temples'), 1200);  // rims drawn
-    const t2 = setTimeout(() => setPhase('text'), 1900);     // temples open
-    const t3 = setTimeout(() => setPhase('exit'), 3300);     // text shown, now exit
+    const t1 = setTimeout(() => setPhase('temples'), 1200);
+    const t2 = setTimeout(() => setPhase('text'),    1900);
+    const t3 = setTimeout(() => setPhase('exit'),    3300);
+    const t4 = setTimeout(startExit,                 6000); // hard fallback
 
     return () => {
-      clearTimeout(hardFallback);
       clearTimeout(t1);
       clearTimeout(t2);
       clearTimeout(t3);
+      clearTimeout(t4);
     };
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  // Default left lens: "Welcome to <StoreName>" or "WE CARE"
-  const leftText = (introLine1 || (storeName ? `Welcome to ${storeName}` : 'WE CARE')).toUpperCase();
-  // Default right lens: "ABOUT YOUR VISION"
+  // when phase hits 'exit', wait for the fade (0.5s) then unmount
+  useEffect(() => {
+    if (phase !== 'exit') return;
+    const t = setTimeout(startExit, 520);
+    return () => clearTimeout(t);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [phase]);
+
+  const leftText  = (introLine1 || (storeName ? `Welcome to ${storeName}` : 'WE CARE')).toUpperCase();
   const rightText = (introLine2 || 'ABOUT YOUR VISION').toUpperCase();
 
   return (
-    <AnimatePresence onExitComplete={finish}>
+    <AnimatePresence onExitComplete={handleDone}>
       {visible && (
-            // ✅ Let AnimatePresence be the only thing that triggers finish()
-    <motion.div
-      className="fixed inset-0 z-[999] flex items-center justify-center bg-surface"
-      animate={phase === 'exit' ? { opacity: 0 } : { opacity: 1 }}
-      transition={{ duration: 0.5 }}
-      >
-          <svg viewBox="-100 -20 1400 640" className="w-[85vw] max-w-3xl" fill="none" style={{ translate: 'none' }}>
+        <motion.div
+          className="fixed inset-0 z-[999] flex items-center justify-center bg-surface"
+          animate={phase === 'exit' ? { opacity: 0 } : { opacity: 1 }}
+          transition={{ duration: 0.5 }}
+        >
+          <svg viewBox="-100 -20 1400 640" className="w-[85vw] max-w-3xl" fill="none">
             <g>
-              {/* Temple left */}
               <motion.line
                 x1="40" y1="110" x2="-120" y2="80"
                 stroke={FRAME_STROKE} strokeWidth="16" strokeLinecap="round"
@@ -93,7 +100,6 @@ export default function IntroSequence({ onComplete, introLine1, introLine2, stor
                 animate={{ rotate: phase === 'rims' ? 68 : 0 }}
                 transition={{ duration: 0.55, ease: [0.34, 1.56, 0.64, 1] }}
               />
-              {/* Temple right */}
               <motion.line
                 x1="1160" y1="110" x2="1320" y2="80"
                 stroke={FRAME_STROKE} strokeWidth="16" strokeLinecap="round"
@@ -102,8 +108,6 @@ export default function IntroSequence({ onComplete, introLine1, introLine2, stor
                 animate={{ rotate: phase === 'rims' ? -68 : 0 }}
                 transition={{ duration: 0.55, ease: [0.34, 1.56, 0.64, 1] }}
               />
-
-              {/* Bridge */}
               <motion.path
                 d={BRIDGE}
                 stroke={FRAME_STROKE} strokeWidth="16" strokeLinecap="round"
@@ -111,8 +115,6 @@ export default function IntroSequence({ onComplete, introLine1, introLine2, stor
                 animate={{ pathLength: 1, opacity: 1 }}
                 transition={{ duration: 1.0, ease: [0.65, 0, 0.35, 1] }}
               />
-
-              {/* Left lens */}
               <motion.path d={LENS_LEFT} fill={FRAME_STROKE}
                 initial={{ fillOpacity: 0 }}
                 animate={{ fillOpacity: phase === 'temples' ? 0.08 : 0 }}
@@ -126,8 +128,6 @@ export default function IntroSequence({ onComplete, introLine1, introLine2, stor
                 animate={{ pathLength: 1, opacity: 1 }}
                 transition={{ duration: 1.0, ease: [0.65, 0, 0.35, 1] }}
               />
-
-              {/* Right lens */}
               <motion.path d={LENS_RIGHT} fill={FRAME_STROKE}
                 initial={{ fillOpacity: 0 }}
                 animate={{ fillOpacity: phase === 'temples' ? 0.08 : 0 }}
@@ -141,34 +141,26 @@ export default function IntroSequence({ onComplete, introLine1, introLine2, stor
                 animate={{ pathLength: 1, opacity: 1 }}
                 transition={{ duration: 1.0, ease: [0.65, 0, 0.35, 1] }}
               />
-
-              {/* Hinge slits */}
               <ellipse cx="45" cy="115" rx="12" ry="4" fill="none" stroke={FRAME_STROKE} strokeWidth="4" transform="rotate(-25 45 115)" />
               <ellipse cx="1155" cy="115" rx="12" ry="4" fill="none" stroke={FRAME_STROKE} strokeWidth="4" transform="rotate(25 1155 115)" />
             </g>
 
-            {/* Left lens text */}
             <motion.g
               textAnchor="middle" fontFamily="Inter, sans-serif" fontWeight={700}
               initial={{ opacity: 0, y: 12 }}
               animate={{ opacity: phase === 'text' || phase === 'exit' ? 1 : 0, y: phase === 'text' || phase === 'exit' ? 0 : 12 }}
               transition={{ duration: 0.5 }}
             >
-              <text x="265" y="275" fill={FRAME_STROKE} fontSize={34}>
-                {leftText}
-              </text>
+              <text x="265" y="275" fill={FRAME_STROKE} fontSize={34}>{leftText}</text>
             </motion.g>
 
-            {/* Right lens text */}
             <motion.g
               textAnchor="middle" fontFamily="Inter, sans-serif" fontWeight={700}
               initial={{ opacity: 0, y: 12 }}
               animate={{ opacity: phase === 'text' || phase === 'exit' ? 1 : 0, y: phase === 'text' || phase === 'exit' ? 0 : 12 }}
               transition={{ duration: 0.5, delay: 0.15 }}
             >
-              <text x="935" y="275" fill={ACCENT} fontSize={38}>
-                {rightText}
-              </text>
+              <text x="935" y="275" fill={ACCENT} fontSize={38}>{rightText}</text>
             </motion.g>
           </svg>
         </motion.div>
