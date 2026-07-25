@@ -12,19 +12,75 @@ interface DashboardStats {
   revenue: { placeholder: boolean; message: string };
 }
 
+// Retries the given async function up to `retries` times with a delay between
+// attempts. Needed because Render free tier cold-starts take 50–90 s — the
+// first request often times out before the server is ready.
+async function fetchWithRetry<T>(
+  fn: () => Promise<T>,
+  retries = 4,
+  delayMs = 8000,
+): Promise<T> {
+  for (let i = 0; i < retries; i++) {
+    try {
+      return await fn();
+    } catch (err) {
+      if (i === retries - 1) throw err;
+      await new Promise((r) => setTimeout(r, delayMs));
+    }
+  }
+  throw new Error('unreachable');
+}
+
 export default function DashboardPage() {
   const [stats, setStats] = useState<DashboardStats | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [waking, setWaking] = useState(false);
 
   useEffect(() => {
-    api
-      .get('/admin/dashboard/stats')
-      .then((res) => setStats(res.data.data))
-      .catch(() => setError('Could not load dashboard stats. Is the API running and reachable?'));
+    let cancelled = false;
+
+    const load = async () => {
+      try {
+        // First attempt — if it fails, show "waking up" message and keep retrying
+        const res = await api.get('/admin/dashboard/stats').catch(async (err) => {
+          if (cancelled) throw err;
+          setWaking(true);         // show the banner after the first failure
+          // fetchWithRetry will do the remaining 3 attempts (8 s apart)
+          return fetchWithRetry(() => api.get('/admin/dashboard/stats'), 3, 8000);
+        });
+        if (!cancelled) {
+          setWaking(false);
+          setStats(res.data.data);
+        }
+      } catch {
+        if (!cancelled) {
+          setWaking(false);
+          setError('Could not load dashboard stats. Is the API running and reachable?');
+        }
+      }
+    };
+
+    load();
+    return () => { cancelled = true; };
   }, []);
 
   if (error) return <p className="text-sm text-red-600">{error}</p>;
-  if (!stats) return <p className="text-sm text-slate-500">Loading…</p>;
+
+  if (!stats) {
+    return (
+      <div className="flex flex-col items-center justify-center gap-3 py-20 text-slate-500">
+        <svg className="animate-spin h-6 w-6 text-slate-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+          <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
+          <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v8H4z" />
+        </svg>
+        <p className="text-sm">
+          {waking
+            ? 'Server is waking up on Render free tier — this takes up to 60 s…'
+            : 'Loading dashboard…'}
+        </p>
+      </div>
+    );
+  }
 
   return (
     <div>

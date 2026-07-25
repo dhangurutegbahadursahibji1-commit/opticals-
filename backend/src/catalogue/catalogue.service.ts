@@ -31,13 +31,17 @@ export class CatalogueService {
   }
 
   async createLens(data: any) {
-    return this.prisma.opticalLensType.create({ data });
+    const { name, description, material, basePrice, salePrice, isActive } = data;
+    return this.prisma.opticalLensType.create({
+      data: { name, description, material, basePrice, salePrice, isActive },
+    });
   }
 
   async updateLens(id: string, data: any) {
+    const { name, description, material, basePrice, salePrice, isActive } = data;
     return this.prisma.opticalLensType.update({
       where: { id },
-      data
+      data: { name, description, material, basePrice, salePrice, isActive },
     });
   }
 
@@ -56,13 +60,17 @@ export class CatalogueService {
   }
 
   async createAddOn(data: any) {
-    return this.prisma.opticalAddOn.create({ data });
+    const { name, type, description, basePrice, salePrice, requiresPrescription, isActive } = data;
+    return this.prisma.opticalAddOn.create({
+      data: { name, type, description, basePrice, salePrice, requiresPrescription, isActive },
+    });
   }
 
   async updateAddOn(id: string, data: any) {
+    const { name, type, description, basePrice, salePrice, requiresPrescription, isActive } = data;
     return this.prisma.opticalAddOn.update({
       where: { id },
-      data
+      data: { name, type, description, basePrice, salePrice, requiresPrescription, isActive },
     });
   }
 
