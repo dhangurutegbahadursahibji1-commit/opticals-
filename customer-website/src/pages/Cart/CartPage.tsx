@@ -94,7 +94,9 @@ export default function CartPage() {
                   <div className="flex justify-between items-start gap-2">
                     <div>
                       <p className="font-medium text-sm leading-tight">{item.product.name}</p>
-                      <p className="text-xs text-muted">{item.product.brand} · {item.variant.color}</p>
+                      <p className="text-xs text-muted">
+                        {typeof item.product.brand === 'object' ? (item.product.brand as any)?.name : item.product.brand} · {item.variant.color}
+                      </p>
                       {item.configurationSnapshot?.lensConfig.lensTypeId && item.configurationSnapshot.lensConfig.lensTypeId !== 'frame-only' && (
                         <p className="text-xs text-accent mt-0.5">+ {item.configurationSnapshot.lensConfig.lensTypeId} lens</p>
                       )}

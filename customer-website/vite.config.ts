@@ -49,7 +49,7 @@ export default defineConfig({
   skipWaiting: true,
   clientsClaim: true,
   cleanupOutdatedCaches: true,
-  navigateFallback: '/offline.html',
+  navigateFallback: null,
   navigateFallbackDenylist: [/^\/assets\//],
   runtimeCaching: [
     {
