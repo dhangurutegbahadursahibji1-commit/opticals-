@@ -1,5 +1,6 @@
-import { useRef, useEffect } from 'react';
+import { useRef, useLayoutEffect } from 'react';
 import { Link } from 'react-router-dom';
+import ScrollTrigger from 'gsap/ScrollTrigger';
 import { useQuery } from '@tanstack/react-query';
 import { RiShieldCheckLine, RiEyeLine, RiMapPin2Line } from 'react-icons/ri';
 import SEOHead from '../../components/common/SEOHead';
@@ -12,6 +13,7 @@ import { adaptApiProduct } from '../../services/adaptApiProduct';
 import { useSettings } from '../../context/SettingsContext';
 import { createHeroNarrativeTimeline } from '../../animations/timelines/hero';
 import { useMotionPreferences } from '../../providers/MotionPreferences';
+
 
 export default function HomePage() {
   // Previously read from static mock JSON, so anything admins actually
@@ -39,13 +41,14 @@ export default function HomePage() {
   const heroRef = useRef<HTMLDivElement>(null);
   const { motionTier } = useMotionPreferences();
 
-  useEffect(() => {
-    // Only run heavy GSAP pinning if motion tier allows it
-    if (motionTier === 'none') return;
-    
-    const ctx = createHeroNarrativeTimeline(heroRef);
-    return () => ctx?.revert();
-  }, [motionTier]);
+  useLayoutEffect(() => {
+  if (motionTier === 'none') return;
+  const ctx = createHeroNarrativeTimeline(heroRef);
+  return () => {
+    ctx?.revert();
+    ScrollTrigger.getAll().forEach(st => st.kill());
+  };
+}, [motionTier]);
 
   return (
     <>
