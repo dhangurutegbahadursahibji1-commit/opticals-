@@ -91,7 +91,11 @@ export default function SimpleCrudPage<T extends { id: string }>({
               <tr key={item.id} className="border-t border-slate-100">
                 {columns.map((c) => (
                   <td key={String(c.key)} className="px-4 py-3 text-slate-700">
-                    {c.render ? c.render(item) : String((item as any)[c.key] ?? '—')}
+                    {c.render ? c.render(item) : (() => {
+                      const val = (item as any)[c.key];
+                      if (!val || typeof val !== 'object') return String(val ?? '—');
+                      return JSON.stringify(val);
+                    })()}
                   </td>
                 ))}
                 <td className="px-4 py-3">
