@@ -45,6 +45,18 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
         };
         setLiveSettings(merged);
         setSettings(merged);
+
+        // Persist name + phone to localStorage so the PWA offline page
+        // (public/offline.html) can display the correct store info without
+        // a network connection. The offline page reads ao_store_name and
+        // ao_store_phone via plain JS — no React, no API call needed.
+        try {
+          if (merged.storeName) localStorage.setItem('ao_store_name', merged.storeName);
+          if (merged.phone)     localStorage.setItem('ao_store_phone', merged.phone);
+        } catch (_) {
+          // localStorage may be blocked in private browsing — safe to ignore.
+        }
+
         if (merged.faviconUrl) {
           let link = document.querySelector<HTMLLinkElement>("link[rel~='icon']");
           if (!link) {

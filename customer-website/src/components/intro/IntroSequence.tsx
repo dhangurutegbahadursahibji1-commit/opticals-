@@ -76,13 +76,12 @@ export default function IntroSequence({ onComplete, introLine1, introLine2, stor
   return (
     <AnimatePresence onExitComplete={finish}>
       {visible && (
-        <motion.div
-          translate="no"
-          className="fixed inset-0 z-[999] flex items-center justify-center bg-surface"
-          animate={phase === 'exit' ? { opacity: 0 } : { opacity: 1 }}
-          transition={{ duration: 0.5 }}
-          onAnimationComplete={() => { if (phase === 'exit') finish(); }}
-        >
+            // ✅ Let AnimatePresence be the only thing that triggers finish()
+    <motion.div
+      className="fixed inset-0 z-[999] flex items-center justify-center bg-surface"
+      animate={phase === 'exit' ? { opacity: 0 } : { opacity: 1 }}
+      transition={{ duration: 0.5 }}
+      >
           <svg viewBox="-100 -20 1400 640" className="w-[85vw] max-w-3xl" fill="none" style={{ translate: 'none' }}>
             <g>
               {/* Temple left */}

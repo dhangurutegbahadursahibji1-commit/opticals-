@@ -1,10 +1,32 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import { VitePWA } from 'vite-plugin-pwa';
+import fs from 'fs';
+import path from 'path';
+
+// Rewrites public/offline.html at build time, replacing __STORE_NAME__
+// and __STORE_PHONE__ with VITE_STORE_NAME / VITE_STORE_PHONE env vars.
+// This means the offline fallback page is white-label — no hardcoded store
+// names or phone numbers in source.
+function offlineHtmlPlugin() {
+  return {
+    name: 'offline-html-inject',
+    closeBundle() {
+      const outPath = path.resolve(__dirname, 'dist/offline.html');
+      if (!fs.existsSync(outPath)) return;
+      let html = fs.readFileSync(outPath, 'utf-8');
+      html = html
+        .replace(/__STORE_NAME__/g, process.env.VITE_STORE_NAME ?? 'Our Store')
+        .replace(/__STORE_PHONE__/g, process.env.VITE_STORE_PHONE ?? '');
+      fs.writeFileSync(outPath, html);
+    },
+  };
+}
 
 export default defineConfig({
   plugins: [
     react(),
+    offlineHtmlPlugin(),
     VitePWA({
       registerType: 'autoUpdate',
       includeAssets: ['icons/icon-192.png', 'icons/icon-512.png'],
