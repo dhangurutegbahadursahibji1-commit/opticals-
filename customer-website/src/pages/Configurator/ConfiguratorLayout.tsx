@@ -3,6 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ConfiguratorProvider, useConfigurator } from '../../context/ConfiguratorContext';
 import { fetchProductBySlug, fetchOpticalCatalogue } from '../../services/api';
+import { adaptApiProduct } from '../../services/adaptApiProduct';
 
 import Stepper from './components/Stepper';
 import BottomPriceBar from './components/BottomPriceBar';
@@ -64,13 +65,8 @@ export default function ConfiguratorLayout() {
         
         if (found) {
           // Adapt backend ApiProduct to frontend Product expected by Configurator
-          const defaultVariant = found.variants?.[0];
-          setProduct({
-            ...found,
-            defaultVariantId: defaultVariant?.id,
-            price: Number(found.price),
-            originalPrice: found.originalPrice ? Number(found.originalPrice) : undefined,
-          });
+          
+          setProduct(adaptApiProduct(found));
           setCatalogue(catData);
         } else {
           navigate('/404', { replace: true });
