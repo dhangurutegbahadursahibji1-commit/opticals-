@@ -2,4 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-body { @apply bg-surface text-slate-800; }
+/* Default brand tokens — overridden at runtime by BrandingProvider
+   as soon as the store's Settings load from the API.
+   Change these defaults if you want a different "before settings load" colour. */
+:root {
+  --color-primary: #0B1D3A;
+  --color-accent:  #C6973F;
+}

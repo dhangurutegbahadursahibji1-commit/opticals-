@@ -5,10 +5,8 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import './index.css';
 import App from './App';
 import { AuthProvider } from './context/AuthContext';
+import { BrandingProvider } from './context/BrandingProvider';
 
-// OrdersPage (and the new branding hook) use react-query's useQuery, which
-// requires a QueryClientProvider somewhere above them in the tree — this was
-// missing, so the Orders screen would throw "No QueryClient set" at runtime.
 const queryClient = new QueryClient({
   defaultOptions: { queries: { staleTime: 1000 * 60 * 5, retry: 1 } },
 });
@@ -18,7 +16,12 @@ createRoot(document.getElementById('root')!).render(
     <QueryClientProvider client={queryClient}>
       <BrowserRouter>
         <AuthProvider>
-          <App />
+          {/* BrandingProvider sits inside QueryClientProvider so it can use
+              useQuery, and outside <App /> so every page inherits the
+              correct brand colors, title, and favicon from the start. */}
+          <BrandingProvider>
+            <App />
+          </BrandingProvider>
         </AuthProvider>
       </BrowserRouter>
     </QueryClientProvider>

@@ -50,8 +50,8 @@ export default function BookingsPage() {
 
   return (
     <div>
-      <div className="flex items-center justify-between mb-6">
-        <h1 className="text-2xl font-semibold text-slate-800">Eye Test Bookings</h1>
+      <div className="flex flex-wrap items-center justify-between gap-3 mb-6">
+        <h1 className="text-xl md:text-2xl font-semibold text-slate-800">Eye Test Bookings</h1>
         <button onClick={exportCsv} className="flex items-center gap-2 rounded-lg border border-slate-200 px-4 py-2 text-sm font-medium">
           <RiDownloadLine /> Export CSV
         </button>
@@ -69,7 +69,7 @@ export default function BookingsPage() {
       {error && <p className="text-sm text-red-600 mb-3">{error}</p>}
 
       <div className="overflow-x-auto rounded-2xl border border-slate-200 bg-white">
-        <table className="w-full text-sm">
+        <table className="w-full min-w-[600px] text-sm">
           <thead className="bg-slate-50 text-slate-500 text-left">
             <tr>
               <th className="px-4 py-3">Name</th>

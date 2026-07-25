@@ -70,7 +70,7 @@ export default function SimpleCrudPage<T extends { id: string }>({
   return (
     <div>
       <div className="flex items-center justify-between mb-6">
-        <h1 className="text-2xl font-semibold text-slate-800">{title}</h1>
+        <h1 className="text-xl md:text-2xl font-semibold text-slate-800">{title}</h1>
         <button onClick={openCreate} className="flex items-center gap-2 rounded-lg bg-primary text-white px-4 py-2 text-sm font-medium">
           <RiAddLine /> New
         </button>
@@ -79,7 +79,7 @@ export default function SimpleCrudPage<T extends { id: string }>({
       {error && <p className="text-sm text-red-600 mb-3">{error}</p>}
 
       <div className="overflow-x-auto rounded-2xl border border-slate-200 bg-white">
-        <table className="w-full text-sm">
+        <table className="w-full min-w-[560px] text-sm">
           <thead className="bg-slate-50 text-slate-500 text-left">
             <tr>
               {columns.map((c) => <th key={String(c.key)} className="px-4 py-3">{c.label}</th>)}
@@ -95,7 +95,7 @@ export default function SimpleCrudPage<T extends { id: string }>({
                   </td>
                 ))}
                 <td className="px-4 py-3">
-                  <div className="flex items-center gap-3 text-slate-500">
+                  <div className="flex items-center gap-3 text-slate-500 whitespace-nowrap">
                     <button title="Edit" onClick={() => openEdit(item)}><RiEditLine /></button>
                     <button title="Delete" onClick={() => remove(item.id)}><RiDeleteBinLine className="text-red-500" /></button>
                   </div>

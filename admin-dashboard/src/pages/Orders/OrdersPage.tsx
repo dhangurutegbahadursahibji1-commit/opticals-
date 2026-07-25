@@ -139,7 +139,7 @@ export default function OrdersPage() {
 
       {/* Table */}
       <div className="rounded-xl border border-slate-200 overflow-x-auto">
-        <table className="w-full text-sm">
+        <table className="w-full min-w-[900px] text-sm">
           <thead className="bg-slate-50 text-xs font-mono uppercase text-slate-500">
             <tr>
               {['Order #','Customer','Product','Amount','Payment','Status','Date',''].map((h) => (
