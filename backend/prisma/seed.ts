@@ -162,17 +162,17 @@ async function main() {
     create: {
       key: 'store',
       value: {
-        // Identity
-        storeName: 'American Opticals',
+        // Identity — replace these from Admin → Settings after first login.
+        storeName: 'Your Store Name',
         tagline: 'We care about your vision.',
         logoUrl: '',
         faviconUrl: '',
 
-        // Contact & location
-        address: 'Enter your store address in Admin → Settings',
+        // Contact & location — fill these in from Admin → Settings after first login.
+        address: '',
         phone: '',
         email: '',
-        hours: 'Mon–Sun: 10:00 AM – 8:00 PM',
+        hours: '',
         mapEmbedUrl: '',
 
         // Socials
