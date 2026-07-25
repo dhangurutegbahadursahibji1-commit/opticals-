@@ -1,8 +1,8 @@
 import { useRef, useLayoutEffect } from 'react';
 import { Link } from 'react-router-dom';
-import ScrollTrigger from 'gsap/ScrollTrigger';
 import { useQuery } from '@tanstack/react-query';
 import { RiShieldCheckLine, RiEyeLine, RiMapPin2Line } from 'react-icons/ri';
+import ScrollTrigger from 'gsap/ScrollTrigger';
 import SEOHead from '../../components/common/SEOHead';
 import SectionHeading from '../../components/common/SectionHeading';
 import ProductCard from '../../components/cards/ProductCard';
@@ -14,11 +14,7 @@ import { useSettings } from '../../context/SettingsContext';
 import { createHeroNarrativeTimeline } from '../../animations/timelines/hero';
 import { useMotionPreferences } from '../../providers/MotionPreferences';
 
-
 export default function HomePage() {
-  // Previously read from static mock JSON, so anything admins actually
-  // managed (products, brands, offers) never reached the homepage — the
-  // first thing every visitor sees.
   const { data: bestsellerData } = useQuery({
     queryKey: ['products', 'bestsellers'],
     queryFn: () => fetchProducts({ isBestseller: true, limit: 8 }),
@@ -37,18 +33,26 @@ export default function HomePage() {
   }));
 
   const settings = useSettings();
-
   const heroRef = useRef<HTMLDivElement>(null);
   const { motionTier } = useMotionPreferences();
 
+  // useLayoutEffect runs cleanup BEFORE React removes DOM nodes.
+  // useEffect runs cleanup AFTER — by then GSAP's pinned elements are gone
+  // from their original parent, causing removeChild to throw.
   useLayoutEffect(() => {
-  if (motionTier === 'none') return;
-  const ctx = createHeroNarrativeTimeline(heroRef);
-  return () => {
-    ctx?.revert();
-    ScrollTrigger.getAll().forEach(st => st.kill());
-  };
-}, [motionTier]);
+    if (motionTier === 'none' || motionTier === undefined) return;
+    const ctx = createHeroNarrativeTimeline(heroRef);
+    return () => {
+      ctx?.revert();
+      // Kill all ScrollTriggers scoped to this page so none linger after unmount
+      ScrollTrigger.getAll().forEach((st) => st.kill());
+    };
+  }, [motionTier]);
+
+  // Render the same hero DOM structure regardless of motionTier so React
+  // never has to swap between two completely different trees while GSAP
+  // may have already pinned/moved nodes from the first one.
+  const isReducedMotion = motionTier === 'none';
 
   return (
     <>
@@ -59,8 +63,7 @@ export default function HomePage() {
 
       {/* Narrative GSAP Hero */}
       <section ref={heroRef} className="relative h-screen flex items-center justify-center overflow-hidden bg-transparent">
-        {motionTier === 'none' ? (
-          // Fallback for reduced motion
+        {isReducedMotion ? (
           <div className="text-center px-6 mt-20">
             <h1 className="font-display text-5xl md:text-7xl font-semibold leading-[1.05] text-primary">
               See the world, <span className="text-accent italic">in focus.</span>
@@ -69,7 +72,6 @@ export default function HomePage() {
           </div>
         ) : (
           <div className="relative w-full max-w-7xl mx-auto px-6 h-full flex items-center justify-center pointer-events-none">
-            {/* The narrative texts are stacked on top of each other and revealed by GSAP */}
             <div className="absolute inset-0 flex items-center justify-center">
               <h1 className="story-frame font-display text-6xl md:text-8xl lg:text-9xl font-bold text-primary tracking-tighter opacity-100">
                 FRAME.
