@@ -194,6 +194,41 @@ export default function ConsultationHubPage() {
                   </div>
                 </section>
               )}
+
+              {/* Payment */}
+              {selectedConsultation.commercialSnapshot?.payment && (
+                <section>
+                  <h3 className="text-sm font-semibold uppercase tracking-wider text-muted mb-3">Payment</h3>
+                  <div className="bg-surface rounded-xl p-4 space-y-2 text-sm">
+                    <div className="flex justify-between">
+                      <span className="text-muted">Method:</span>
+                      <span className="font-medium uppercase">{selectedConsultation.commercialSnapshot.payment.method || 'N/A'}</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="text-muted">UTR / Transaction ID:</span>
+                      <span className="font-mono font-semibold text-primary">{selectedConsultation.commercialSnapshot.payment.utrNumber || 'Not provided'}</span>
+                    </div>
+                    {selectedConsultation.commercialSnapshot.payment.proofUrl && (
+                      <div className="pt-2">
+                        <a
+                          href={selectedConsultation.commercialSnapshot.payment.proofUrl}
+                          target="_blank"
+                          rel="noreferrer"
+                          className="flex items-center justify-center gap-2 w-full py-2.5 rounded-lg bg-accent/10 text-accent font-semibold text-xs hover:bg-accent/20 transition-colors"
+                        >
+                          View Payment Screenshot
+                        </a>
+                        <img
+                          src={selectedConsultation.commercialSnapshot.payment.proofUrl}
+                          alt="Payment proof"
+                          className="mt-3 w-full rounded-lg border border-border object-contain max-h-48"
+                          onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }}
+                        />
+                      </div>
+                    )}
+                  </div>
+                </section>
+              )}
             </div>
 
             <div className="p-6 border-t border-border bg-surface">

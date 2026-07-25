@@ -2,7 +2,7 @@ import { NavLink } from 'react-router-dom';
 import {
   RiDashboardLine, RiShoppingBag3Line, RiPriceTag3Line, RiFolderLine, RiArticleLine,
   RiCoupon3Line, RiStarLine, RiCalendarCheckLine, RiMailLine, RiTeamLine,
-  RiHistoryLine, RiSettings3Line, RiShoppingCart2Line, RiImageLine,
+  RiHistoryLine, RiSettings3Line, RiShoppingCart2Line,
   RiGitRepositoryLine, RiStethoscopeLine, RiQuestionAnswerLine
 } from 'react-icons/ri';
 import { useAuth, hasMinRole } from '../../context/AuthContext';
@@ -17,7 +17,6 @@ const LINKS = [
   { to: '/blogs', label: 'Blogs', icon: RiArticleLine, min: 'VIEWER' as const },
   { to: '/offers', label: 'Offers', icon: RiCoupon3Line, min: 'VIEWER' as const },
   { to: '/testimonials', label: 'Testimonials', icon: RiStarLine, min: 'VIEWER' as const },
-  { to: '/gallery', label: 'Gallery', icon: RiImageLine, min: 'VIEWER' as const },
   { to: '/faqs', label: 'FAQs', icon: RiQuestionAnswerLine, min: 'VIEWER' as const },
 
   { to: '/bookings', label: 'Bookings', icon: RiCalendarCheckLine, min: 'VIEWER' as const },
