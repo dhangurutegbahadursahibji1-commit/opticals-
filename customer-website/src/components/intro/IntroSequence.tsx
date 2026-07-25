@@ -77,12 +77,13 @@ export default function IntroSequence({ onComplete, introLine1, introLine2, stor
     <AnimatePresence onExitComplete={finish}>
       {visible && (
         <motion.div
+          translate="no"
           className="fixed inset-0 z-[999] flex items-center justify-center bg-surface"
           animate={phase === 'exit' ? { opacity: 0 } : { opacity: 1 }}
           transition={{ duration: 0.5 }}
           onAnimationComplete={() => { if (phase === 'exit') finish(); }}
         >
-          <svg viewBox="-100 -20 1400 640" className="w-[85vw] max-w-3xl" fill="none">
+          <svg viewBox="-100 -20 1400 640" className="w-[85vw] max-w-3xl" fill="none" style={{ translate: 'none' }}>
             <g>
               {/* Temple left */}
               <motion.line
