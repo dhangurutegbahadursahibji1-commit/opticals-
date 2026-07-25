@@ -34,9 +34,11 @@ export default function StepLensType() {
   };
 
   const handleExpertRecommendation = () => {
+    // Set expertAssistance BEFORE calling goToStep so validateStep(1)
+    // passes (it now checks expertAssistance). Do NOT nullify lensTypeId
+    // here — that breaks validation and freezes the Next button.
     setExpertAssistance(true);
-    setLensType(null); // Default fallback, expert will change it
-    goToStep(4); // Skip to review
+    goToStep(2); // Continue to prescription step so customer can upload their Rx
   };
 
   return (

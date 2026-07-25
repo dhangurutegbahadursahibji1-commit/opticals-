@@ -208,11 +208,15 @@ export function ConfiguratorProvider({
 
   // Validation
   const validateLensStep = useCallback(() => {
-    return config.lensTypeId !== null;
-  }, [config.lensTypeId]);
+    // Expert Recommendation is a valid selection — no lens type needed.
+    return config.lensTypeId !== null || config.expertAssistance === true;
+  }, [config.lensTypeId, config.expertAssistance]);
 
   const validatePrescriptionStep = useCallback(() => {
+    // Frame-only: no prescription needed.
     if (config.lensTypeId === 'frame-only') return true;
+    // Expert mode: prescription upload is required so the expert can review it.
+    // Any status except the initial undefined/pending counts as provided.
     return config.prescription !== undefined && config.prescription.status !== 'pending';
   }, [config.lensTypeId, config.prescription]);
 
