@@ -46,8 +46,18 @@ export default defineConfig({
         ],
       },
       workbox: {
+        // Immediately activate the new SW instead of waiting for all tabs to close.
+        // Without this, users on an old SW keep hitting stale caches after a deploy.
+        skipWaiting: true,
+        clientsClaim: true,
+        // Purge caches from previous SW versions on activation.
+        cleanupOutdatedCaches: true,
         navigateFallback: '/offline.html',
+        // Never let the SW intercept /assets/* — those requests must always go
+        // to the network so Vercel serves the real JS/CSS with correct MIME types.
+        navigateFallbackDenylist: [/^\/assets\//],
         runtimeCaching: [
+          // Images: safe to cache aggressively (content-hashed filenames).
           {
             urlPattern: ({ request }) => request.destination === 'image',
             handler: 'CacheFirst',
@@ -56,16 +66,25 @@ export default defineConfig({
               expiration: { maxEntries: 100, maxAgeSeconds: 60 * 60 * 24 * 30 },
             },
           },
+          // Scripts & styles: NetworkFirst so a fresh deploy is always picked up.
+          // Falls back to cache only when offline — never serves stale HTML as JS.
           {
             urlPattern: ({ request }) =>
               request.destination === 'script' || request.destination === 'style',
-            handler: 'CacheFirst',
-            options: { cacheName: 'static-resources' },
+            handler: 'NetworkFirst',
+            options: {
+              cacheName: 'static-resources',
+              networkTimeoutSeconds: 5,
+            },
           },
+          // API calls: NetworkFirst with a short timeout.
           {
             urlPattern: ({ url }) => url.pathname.startsWith('/api/'),
             handler: 'NetworkFirst',
-            options: { cacheName: 'api-cache' },
+            options: {
+              cacheName: 'api-cache',
+              networkTimeoutSeconds: 10,
+            },
           },
         ],
       },
